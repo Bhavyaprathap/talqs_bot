@@ -1,0 +1,4002 @@
+[
+    {
+      "term": "Jury 1",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Notary 2",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Litigation 3",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Tort 4",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Bail 5",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Litigation 6",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Notary 7",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Hearing 8",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Injunction 9",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Contract 10",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Writ 11",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Writ 12",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Testimony 13",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Notary 14",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Injunction 15",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Defendant 16",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Quash 17",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Appeal 18",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Contract 19",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Contract 20",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Writ 21",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Writ 22",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Hearing 23",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Quash 24",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Appeal 25",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Hearing 26",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Defendant 27",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Tort 28",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Bail 29",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Plaintiff 30",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Hearing 31",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Evidence 32",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Waiver 33",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Defendant 34",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Quash 35",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Evidence 36",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Bail 37",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Jury 38",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Bail 39",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Jury 40",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Testimony 41",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Litigation 42",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Subpoena 43",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Defendant 44",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Notary 45",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Notary 46",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Hearing 47",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Injunction 48",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Tort 49",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Quash 50",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Testimony 51",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Waiver 52",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Appeal 53",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Plaintiff 54",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Contract 55",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Defendant 56",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Appeal 57",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Contract 58",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Subpoena 59",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Tort 60",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Quash 61",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Litigation 62",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Evidence 63",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Jury 64",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Subpoena 65",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Litigation 66",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Affidavit 67",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Litigation 68",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Jury 69",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Hearing 70",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Notary 71",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Plaintiff 72",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Plaintiff 73",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Bail 74",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Affidavit 75",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Notary 76",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Hearing 77",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Defendant 78",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Appeal 79",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Jury 80",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Verdict 81",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Injunction 82",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Subpoena 83",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Defendant 84",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Quash 85",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Litigation 86",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Testimony 87",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Tort 88",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Injunction 89",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Affidavit 90",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Motion 91",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Plaintiff 92",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Contract 93",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Defendant 94",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Quash 95",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Hearing 96",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Verdict 97",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Motion 98",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Jury 99",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Waiver 100",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Hearing 101",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Waiver 102",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Evidence 103",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Writ 104",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Bail 105",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Writ 106",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Contract 107",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Verdict 108",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Bail 109",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Writ 110",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Jury 111",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Plaintiff 112",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Plaintiff 113",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Affidavit 114",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Contract 115",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Plaintiff 116",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Hearing 117",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Litigation 118",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Jury 119",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Affidavit 120",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Jury 121",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Quash 122",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Jury 123",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Subpoena 124",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Contract 125",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Testimony 126",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Subpoena 127",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Waiver 128",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Plaintiff 129",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Hearing 130",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Verdict 131",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Testimony 132",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Evidence 133",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Affidavit 134",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Writ 135",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Injunction 136",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Motion 137",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Appeal 138",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Motion 139",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Waiver 140",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Verdict 141",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Bail 142",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Subpoena 143",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Waiver 144",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Verdict 145",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Litigation 146",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Writ 147",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Defendant 148",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Quash 149",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Tort 150",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Bail 151",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Litigation 152",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Quash 153",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Injunction 154",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Motion 155",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Defendant 156",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Jury 157",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Affidavit 158",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Defendant 159",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Bail 160",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Verdict 161",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Bail 162",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Defendant 163",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Bail 164",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Writ 165",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Motion 166",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Verdict 167",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Contract 168",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Hearing 169",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Affidavit 170",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Contract 171",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Quash 172",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Tort 173",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Writ 174",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Notary 175",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Jury 176",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Tort 177",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Appeal 178",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Motion 179",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Motion 180",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Hearing 181",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Contract 182",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Defendant 183",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Subpoena 184",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Writ 185",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Waiver 186",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Tort 187",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Writ 188",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Verdict 189",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Defendant 190",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Notary 191",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Affidavit 192",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Evidence 193",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Waiver 194",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Defendant 195",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Evidence 196",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Hearing 197",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Tort 198",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Plaintiff 199",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Plaintiff 200",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Hearing 201",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Jury 202",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Jury 203",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Motion 204",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Quash 205",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Defendant 206",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Evidence 207",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Jury 208",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Writ 209",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Tort 210",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Verdict 211",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Writ 212",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Verdict 213",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Subpoena 214",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Motion 215",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Motion 216",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Waiver 217",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Jury 218",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Bail 219",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Contract 220",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Waiver 221",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Bail 222",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Waiver 223",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Motion 224",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Evidence 225",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Verdict 226",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Verdict 227",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Notary 228",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Contract 229",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Hearing 230",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Testimony 231",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Motion 232",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Notary 233",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Bail 234",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Plaintiff 235",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Affidavit 236",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Defendant 237",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Defendant 238",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Evidence 239",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Bail 240",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Motion 241",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Injunction 242",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Quash 243",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Contract 244",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Testimony 245",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Affidavit 246",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Plaintiff 247",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Contract 248",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Contract 249",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Litigation 250",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Tort 251",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Defendant 252",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Writ 253",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Appeal 254",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Injunction 255",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Notary 256",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Litigation 257",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Bail 258",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Bail 259",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Subpoena 260",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Hearing 261",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Plaintiff 262",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Tort 263",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Subpoena 264",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Affidavit 265",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Injunction 266",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Motion 267",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Plaintiff 268",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Bail 269",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Hearing 270",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Notary 271",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Waiver 272",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Contract 273",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Tort 274",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Bail 275",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Evidence 276",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Contract 277",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Verdict 278",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Affidavit 279",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Bail 280",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Plaintiff 281",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Jury 282",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Plaintiff 283",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Waiver 284",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Jury 285",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Evidence 286",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Jury 287",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Appeal 288",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Subpoena 289",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Litigation 290",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Affidavit 291",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Appeal 292",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Contract 293",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Verdict 294",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Bail 295",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Motion 296",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Quash 297",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Quash 298",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Motion 299",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Quash 300",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Testimony 301",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Writ 302",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Quash 303",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Litigation 304",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Injunction 305",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Affidavit 306",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Affidavit 307",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Jury 308",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Appeal 309",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Bail 310",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Waiver 311",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Writ 312",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Waiver 313",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Quash 314",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Writ 315",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Tort 316",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Contract 317",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Waiver 318",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Affidavit 319",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Subpoena 320",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Appeal 321",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Injunction 322",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Writ 323",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Notary 324",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Plaintiff 325",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Verdict 326",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Evidence 327",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Litigation 328",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Affidavit 329",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Motion 330",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Evidence 331",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Motion 332",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Tort 333",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Verdict 334",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Litigation 335",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Notary 336",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Notary 337",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Tort 338",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Waiver 339",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Defendant 340",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Affidavit 341",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Quash 342",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Defendant 343",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Evidence 344",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Plaintiff 345",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Defendant 346",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Jury 347",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Notary 348",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Hearing 349",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Hearing 350",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Litigation 351",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Hearing 352",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Jury 353",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Testimony 354",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Waiver 355",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Waiver 356",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Motion 357",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Verdict 358",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Testimony 359",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Jury 360",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Writ 361",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Injunction 362",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Evidence 363",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Testimony 364",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Evidence 365",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Writ 366",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Quash 367",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Subpoena 368",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Hearing 369",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Waiver 370",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Writ 371",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Quash 372",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Waiver 373",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Quash 374",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Appeal 375",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Notary 376",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Appeal 377",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Appeal 378",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Bail 379",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Defendant 380",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Testimony 381",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Tort 382",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Testimony 383",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Tort 384",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Writ 385",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Injunction 386",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Appeal 387",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Verdict 388",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Verdict 389",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Quash 390",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Evidence 391",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Litigation 392",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Motion 393",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Quash 394",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Verdict 395",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Affidavit 396",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Evidence 397",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Notary 398",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Contract 399",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Tort 400",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Injunction 401",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Waiver 402",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Plaintiff 403",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Evidence 404",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Testimony 405",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Affidavit 406",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Bail 407",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Evidence 408",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Motion 409",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Motion 410",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Appeal 411",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Jury 412",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Bail 413",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Injunction 414",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Affidavit 415",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Testimony 416",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Affidavit 417",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Hearing 418",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Litigation 419",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Notary 420",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Bail 421",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Defendant 422",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Writ 423",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Hearing 424",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Testimony 425",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Testimony 426",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Notary 427",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Hearing 428",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Bail 429",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Hearing 430",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Jury 431",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Notary 432",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Defendant 433",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Bail 434",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Contract 435",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Affidavit 436",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Affidavit 437",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Quash 438",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Notary 439",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Subpoena 440",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Injunction 441",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Verdict 442",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Defendant 443",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Hearing 444",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Motion 445",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Litigation 446",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Verdict 447",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Notary 448",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Litigation 449",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Notary 450",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Contract 451",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Verdict 452",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Appeal 453",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Litigation 454",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Tort 455",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Quash 456",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Notary 457",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Hearing 458",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Bail 459",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Contract 460",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Litigation 461",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Defendant 462",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Hearing 463",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Subpoena 464",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Notary 465",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Appeal 466",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Contract 467",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Testimony 468",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Writ 469",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Injunction 470",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Quash 471",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Affidavit 472",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Evidence 473",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Defendant 474",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Waiver 475",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Hearing 476",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Testimony 477",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Verdict 478",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Bail 479",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Writ 480",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Affidavit 481",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Contract 482",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Jury 483",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Jury 484",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Contract 485",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Tort 486",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Litigation 487",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Bail 488",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Evidence 489",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Notary 490",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Litigation 491",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Jury 492",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Contract 493",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Notary 494",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Notary 495",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Affidavit 496",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Verdict 497",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Contract 498",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Motion 499",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Bail 500",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Injunction 501",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Testimony 502",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Writ 503",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Plaintiff 504",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Contract 505",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Jury 506",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Subpoena 507",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Waiver 508",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Evidence 509",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Quash 510",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Tort 511",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Plaintiff 512",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Quash 513",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Verdict 514",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Jury 515",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Jury 516",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Injunction 517",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Waiver 518",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Litigation 519",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Appeal 520",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Tort 521",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Contract 522",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Tort 523",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Hearing 524",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Litigation 525",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Bail 526",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Quash 527",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Subpoena 528",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Injunction 529",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Waiver 530",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Tort 531",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Litigation 532",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Motion 533",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Quash 534",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Evidence 535",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Tort 536",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Bail 537",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Defendant 538",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Verdict 539",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Contract 540",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Notary 541",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Injunction 542",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Waiver 543",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Motion 544",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Motion 545",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Quash 546",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Hearing 547",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Jury 548",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Hearing 549",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Verdict 550",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Contract 551",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Quash 552",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Bail 553",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Writ 554",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Injunction 555",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Contract 556",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Appeal 557",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Appeal 558",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Testimony 559",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Bail 560",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Contract 561",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Defendant 562",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Verdict 563",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Bail 564",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Affidavit 565",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Waiver 566",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Verdict 567",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Motion 568",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Plaintiff 569",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Defendant 570",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Defendant 571",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Testimony 572",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Bail 573",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Evidence 574",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Writ 575",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Subpoena 576",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Notary 577",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Tort 578",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Appeal 579",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Testimony 580",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Evidence 581",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Tort 582",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Subpoena 583",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Evidence 584",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Verdict 585",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Contract 586",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Verdict 587",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Testimony 588",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Subpoena 589",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Waiver 590",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Waiver 591",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Testimony 592",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Motion 593",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Verdict 594",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Bail 595",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Injunction 596",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Jury 597",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Jury 598",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Tort 599",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Motion 600",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Waiver 601",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Notary 602",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Quash 603",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Quash 604",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Quash 605",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Injunction 606",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Contract 607",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Verdict 608",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Motion 609",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Plaintiff 610",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Verdict 611",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Subpoena 612",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Bail 613",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Verdict 614",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Subpoena 615",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Testimony 616",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Plaintiff 617",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Verdict 618",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Evidence 619",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Affidavit 620",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Writ 621",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Plaintiff 622",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Hearing 623",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Appeal 624",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Defendant 625",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Bail 626",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Defendant 627",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Appeal 628",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Verdict 629",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Evidence 630",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Testimony 631",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Plaintiff 632",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Plaintiff 633",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Writ 634",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Waiver 635",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Contract 636",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Motion 637",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Hearing 638",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Defendant 639",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Plaintiff 640",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Quash 641",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Notary 642",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Plaintiff 643",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Jury 644",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Quash 645",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Notary 646",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Testimony 647",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Subpoena 648",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Tort 649",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Affidavit 650",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Writ 651",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Defendant 652",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Appeal 653",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Subpoena 654",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Injunction 655",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Quash 656",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Litigation 657",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Affidavit 658",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Subpoena 659",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Litigation 660",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Quash 661",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Testimony 662",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Testimony 663",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Defendant 664",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Injunction 665",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Affidavit 666",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Quash 667",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Bail 668",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Writ 669",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Evidence 670",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Writ 671",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Defendant 672",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Plaintiff 673",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Motion 674",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Tort 675",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Contract 676",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Writ 677",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Subpoena 678",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Defendant 679",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Subpoena 680",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Testimony 681",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Quash 682",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Waiver 683",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Affidavit 684",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Jury 685",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Waiver 686",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Motion 687",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Notary 688",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Notary 689",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Quash 690",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Tort 691",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Appeal 692",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Hearing 693",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Waiver 694",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Contract 695",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Verdict 696",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Bail 697",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Plaintiff 698",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Litigation 699",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Defendant 700",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Jury 701",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Notary 702",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Defendant 703",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Verdict 704",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Quash 705",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Appeal 706",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Appeal 707",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Contract 708",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Testimony 709",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Hearing 710",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Notary 711",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Subpoena 712",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Evidence 713",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Notary 714",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Quash 715",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Jury 716",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Litigation 717",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Subpoena 718",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Appeal 719",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Appeal 720",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Jury 721",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Notary 722",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Contract 723",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Affidavit 724",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Plaintiff 725",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Bail 726",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Litigation 727",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Subpoena 728",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Verdict 729",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Subpoena 730",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Quash 731",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Notary 732",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Jury 733",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Hearing 734",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Contract 735",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Tort 736",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Hearing 737",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Subpoena 738",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Jury 739",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Litigation 740",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Evidence 741",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Testimony 742",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Defendant 743",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Appeal 744",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Hearing 745",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Testimony 746",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Hearing 747",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Tort 748",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Tort 749",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Bail 750",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Bail 751",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Jury 752",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Contract 753",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Contract 754",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Subpoena 755",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Bail 756",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Defendant 757",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Writ 758",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Notary 759",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Bail 760",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Appeal 761",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Hearing 762",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Subpoena 763",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Defendant 764",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Affidavit 765",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Jury 766",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Waiver 767",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Hearing 768",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Waiver 769",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Defendant 770",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Verdict 771",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Verdict 772",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Appeal 773",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Plaintiff 774",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Verdict 775",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Subpoena 776",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Litigation 777",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Tort 778",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Verdict 779",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Contract 780",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Verdict 781",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Subpoena 782",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Litigation 783",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Appeal 784",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Quash 785",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Writ 786",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Writ 787",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Quash 788",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Appeal 789",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Writ 790",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Evidence 791",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Tort 792",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Appeal 793",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Appeal 794",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Tort 795",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Subpoena 796",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Verdict 797",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Defendant 798",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Tort 799",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Verdict 800",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Defendant 801",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Verdict 802",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Contract 803",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Testimony 804",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Litigation 805",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Evidence 806",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Appeal 807",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Quash 808",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Evidence 809",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Verdict 810",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Testimony 811",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Quash 812",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Appeal 813",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Notary 814",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Affidavit 815",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Injunction 816",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Subpoena 817",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Jury 818",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Tort 819",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Subpoena 820",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Tort 821",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Defendant 822",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Contract 823",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Contract 824",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Contract 825",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Jury 826",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Hearing 827",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Tort 828",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Litigation 829",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Subpoena 830",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Tort 831",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Contract 832",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Affidavit 833",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Notary 834",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Hearing 835",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Contract 836",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Affidavit 837",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Bail 838",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Hearing 839",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Evidence 840",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Defendant 841",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Litigation 842",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Contract 843",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Evidence 844",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Evidence 845",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Contract 846",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Subpoena 847",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Injunction 848",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Defendant 849",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Subpoena 850",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Subpoena 851",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Hearing 852",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Plaintiff 853",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Hearing 854",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Verdict 855",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Testimony 856",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Waiver 857",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Injunction 858",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Writ 859",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Bail 860",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Affidavit 861",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Hearing 862",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Verdict 863",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Bail 864",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Waiver 865",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Jury 866",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Tort 867",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Defendant 868",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Writ 869",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Waiver 870",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Defendant 871",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Bail 872",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Evidence 873",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Appeal 874",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Tort 875",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Writ 876",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Subpoena 877",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Writ 878",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Plaintiff 879",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Motion 880",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Quash 881",
+      "definition": "To reject or void, especially by legal procedure."
+    },
+    {
+      "term": "Defendant 882",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Contract 883",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Testimony 884",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Testimony 885",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Plaintiff 886",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Jury 887",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Bail 888",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Defendant 889",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Litigation 890",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Bail 891",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Plaintiff 892",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Tort 893",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Subpoena 894",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Jury 895",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Subpoena 896",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Affidavit 897",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Bail 898",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Writ 899",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Tort 900",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Hearing 901",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Writ 902",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Contract 903",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Verdict 904",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Contract 905",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Injunction 906",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Subpoena 907",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Tort 908",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Defendant 909",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Notary 910",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Motion 911",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Affidavit 912",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Affidavit 913",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Hearing 914",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Waiver 915",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Contract 916",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Writ 917",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Affidavit 918",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Waiver 919",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Testimony 920",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Affidavit 921",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Bail 922",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Tort 923",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Subpoena 924",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Litigation 925",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Motion 926",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Jury 927",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Motion 928",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Motion 929",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Writ 930",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Contract 931",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Motion 932",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Defendant 933",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Waiver 934",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Subpoena 935",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Subpoena 936",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Waiver 937",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Bail 938",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Writ 939",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Defendant 940",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Defendant 941",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Motion 942",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Hearing 943",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Bail 944",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Writ 945",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Litigation 946",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Waiver 947",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Plaintiff 948",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Hearing 949",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Appeal 950",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Notary 951",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Jury 952",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Motion 953",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Contract 954",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Contract 955",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Waiver 956",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Tort 957",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Motion 958",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Contract 959",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Bail 960",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Testimony 961",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Bail 962",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Litigation 963",
+      "definition": "The process of taking legal action."
+    },
+    {
+      "term": "Motion 964",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Hearing 965",
+      "definition": "A session in which testimony and arguments are presented."
+    },
+    {
+      "term": "Testimony 966",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Waiver 967",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Contract 968",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Affidavit 969",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Verdict 970",
+      "definition": "The decision of a jury in a trial."
+    },
+    {
+      "term": "Plaintiff 971",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Affidavit 972",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Contract 973",
+      "definition": "A legally binding agreement between two or more parties."
+    },
+    {
+      "term": "Bail 974",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Plaintiff 975",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Jury 976",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Notary 977",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Notary 978",
+      "definition": "An official authorized to perform certain legal formalities."
+    },
+    {
+      "term": "Motion 979",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Writ 980",
+      "definition": "A form of written command in the name of a court or legal authority."
+    },
+    {
+      "term": "Bail 981",
+      "definition": "The temporary release of an accused person awaiting trial, sometimes on condition of a sum of money."
+    },
+    {
+      "term": "Appeal 982",
+      "definition": "Apply to a higher court for a reversal of the decision of a lower court."
+    },
+    {
+      "term": "Waiver 983",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Motion 984",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Injunction 985",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Defendant 986",
+      "definition": "An individual, company, or institution sued or accused in a court of law."
+    },
+    {
+      "term": "Subpoena 987",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Subpoena 988",
+      "definition": "A writ ordering a person to attend a court."
+    },
+    {
+      "term": "Jury 989",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Evidence 990",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Plaintiff 991",
+      "definition": "A person who brings a case against another in a court of law."
+    },
+    {
+      "term": "Testimony 992",
+      "definition": "A formal written or spoken statement given in a court of law."
+    },
+    {
+      "term": "Jury 993",
+      "definition": "A group of people sworn to render a verdict in a legal case."
+    },
+    {
+      "term": "Motion 994",
+      "definition": "A formal request made to a judge for an order or ruling."
+    },
+    {
+      "term": "Evidence 995",
+      "definition": "Available body of facts or information indicating whether a belief or proposition is true or valid."
+    },
+    {
+      "term": "Affidavit 996",
+      "definition": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+    },
+    {
+      "term": "Waiver 997",
+      "definition": "The voluntary relinquishment of a known right."
+    },
+    {
+      "term": "Injunction 998",
+      "definition": "An authoritative warning or order issued by a court."
+    },
+    {
+      "term": "Tort 999",
+      "definition": "A wrongful act or an infringement of a right leading to legal liability."
+    },
+    {
+      "term": "Contract 1000",
+      "definition": "A legally binding agreement between two or more parties."
+    }
+  ]
