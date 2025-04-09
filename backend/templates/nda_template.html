@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NDA</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; line-height: 1.5; }
+    h1 { text-align: center; }
+    p { margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Non-Disclosure Agreement</h1>
+  <p>Effective Date: <strong>{{ effective_date }}</strong></p>
+  <p>This NDA is made between <strong>{{ disclosing_party }}</strong> and <strong>{{ receiving_party }}</strong>.</p>
+  <p>The NDA shall remain in effect for <strong>{{ term }}</strong> months and is governed by <strong>{{ jurisdiction }}</strong>.</p>
+  <p>Both parties agree not to disclose confidential information.</p>
+  <p>Signed:</p>
+  <p>____________________ ({{ disclosing_party }})</p>
+  <p>____________________ ({{ receiving_party }})</p>
+</body>
+</html>

@@ -10,46 +10,84 @@ const QAChatBot = () => {
   const [historyCollapsed, setHistoryCollapsed] = useState(false);
   const chatEndRef = useRef(null);
 
-  const handleSend = () => {
-    if (!question.trim()) return;
+const handleSend = async () => {
+  if (!question.trim()) return;
 
-    const userMsg = {
-      text: question,
-      sender: 'user',
+  const userMsg = {
+    text: question,
+    sender: 'user',
+    timestamp: new Date().toLocaleTimeString(),
+  };
+
+  setMessages((prev) => [...prev, userMsg]);
+  setQuestion('');
+  setBotTyping(true);
+
+  try {
+    const res = await fetch("http://localhost:5000/ask", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question }),
+    });
+
+    const data = await res.json();
+
+    const botMsg = {
+      text: `🧠 ${data.answer}`, // Use real backend response
+      sender: 'bot',
       timestamp: new Date().toLocaleTimeString(),
     };
 
-    setMessages((prev) => [...prev, userMsg]);
-    setQuestion('');
-    setBotTyping(true);
+    setMessages((prev) => [...prev, botMsg]);
+  } catch (err) {
+    const errorMsg = {
+      text: "❌ Error getting response. Please try again.",
+      sender: 'bot',
+      timestamp: new Date().toLocaleTimeString(),
+    };
+    setMessages((prev) => [...prev, errorMsg]);
+  }
 
-    // Simulate bot typing delay
-    setTimeout(() => {
-      const botMsg = {
-        text: `🧠 AI Answer to: "${userMsg.text}"`,
-        sender: 'bot',
-        timestamp: new Date().toLocaleTimeString(),
-      };
-      setMessages((prev) => [...prev, botMsg]);
-      setBotTyping(false);
-    }, 1000);
-  };
+  setBotTyping(false);
+};
+
 
   const handleCopy = (text) => {
     navigator.clipboard.writeText(text);
   };
 
-  const handleRegenerate = (lastQuestion) => {
+  const handleRegenerate = async (lastQuestion) => {
+    if (!lastQuestion) return;
     setBotTyping(true);
-    setTimeout(() => {
+
+    try {
+      const res = await fetch("http://localhost:5000/ask", {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: lastQuestion }),
+      });
+
+      const data = await res.json();
+
       const botMsg = {
-        text: `🧠 Regenerated answer to: "${lastQuestion}"`,
+        text: `🔁 ${data.answer}`,
         sender: 'bot',
         timestamp: new Date().toLocaleTimeString(),
       };
+
       setMessages((prev) => [...prev, botMsg]);
-      setBotTyping(false);
-    }, 1000);
+    } catch (err) {
+      setMessages((prev) => [
+        ...prev,
+        {
+          text: '⚠️ Failed to regenerate response.',
+          sender: 'bot',
+          timestamp: new Date().toLocaleTimeString(),
+        },
+      ]);
+    }
+
+    setBotTyping(false);
   };
 
   useEffect(() => {
@@ -95,7 +133,9 @@ const QAChatBot = () => {
           {messages.map((msg, idx) => (
             <div
               key={idx}
-              className={`flex items-start ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}
+              className={`flex items-start ${
+                msg.sender === 'user' ? 'justify-end' : 'justify-start'
+              }`}
             >
               {msg.sender === 'bot' && <BsRobot className="text-cyan-400 text-xl mr-2 mt-1" />}
               <div
@@ -151,7 +191,6 @@ const QAChatBot = () => {
         </div>
       </div>
     </div>
-    
   );
 };
 

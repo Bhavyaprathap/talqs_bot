@@ -2,6 +2,7 @@ import { BrowserRouter  as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/login.jsx";
 import Signup from "./pages/signup.jsx";
 import HomePage from "./pages/home.jsx";
+
 import HeroSection from "./assets/herosection.jsx";
 import ExploreModelsFlow from "./assets/qasumm.jsx";
 import ExploreModelFlow from "./assets/contents.jsx";
@@ -10,6 +11,8 @@ import Summarization from "./pages/summarization.jsx";
 import NeonFlowPage from "./assets/Neonflow.jsx";
 import Footer from "./pages/footer.jsx";
 import LegalDictionary from "./pages/LegalDictionary.jsx";
+import Ndatemplate from "./pages/Ndatemplate.jsx";
+
 
 
 function App() {
@@ -36,6 +39,7 @@ function App() {
           <Route path="/qachatbot" element={<QABotChat/>}/>
           <Route path="/summarization" element={<Summarization/>}/>
           <Route path="/dictionary" element={<LegalDictionary/>}/>
+          <Route path="/NDAtemplate" element={<Ndatemplate/>}/>
           
           
         </Routes>

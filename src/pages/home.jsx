@@ -34,6 +34,7 @@ const Navbar = () => {
               <li className="hover:text-purple-300 cursor-pointer">Q/A chatbot</li>
               <li className="hover:text-purple-300 cursor-pointer">Summary chatbot</li>
               <li onClick={()=>navigate("/dictionary")} className="hover:text-purple-300 cursor-pointer">Legal Dictionary</li>
+              <li onClick={()=>navigate("/NDAtemplate")} className="hover:text-purple-300 cursor-pointer">NDA</li>
 
               <li className="hover:text-purple-300 cursor-pointer">Contact</li>
               <li className="hover:text-purple-300 cursor-pointer">Help</li>
