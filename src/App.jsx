@@ -1,7 +1,9 @@
-import { BrowserRouter  as Router, Routes, Route } from "react-router-dom";
+import {  Routes, Route } from "react-router-dom";
 import Login from "./pages/login.jsx";
 import Signup from "./pages/signup.jsx";
-import HomePage from "./pages/home.jsx";
+import Navbar from "./pages/Navbar.jsx";
+import React, { useState, useEffect } from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import HeroSection from "./assets/herosection.jsx";
 import ExploreModelsFlow from "./assets/qasumm.jsx";
@@ -12,23 +14,35 @@ import NeonFlowPage from "./assets/Neonflow.jsx";
 import Footer from "./pages/footer.jsx";
 import LegalDictionary from "./pages/LegalDictionary.jsx";
 import Ndatemplate from "./pages/Ndatemplate.jsx";
-
+import Features from "./pages/features.jsx";
+import LegalCaseSimulation from "./pages/nextpage.jsx";
+import IPCSections from "./pages/ipcsecs.jsx";
 
 
 function App() {
-  return (
-    <Router>
+  const [username, setUsername] = useState('');
+
+  // Use effect to retrieve the username when the component is mounted
+  useEffect(() => {
+    const storedUsername = localStorage.getItem("username");
+    if (storedUsername) {
+      setUsername(storedUsername);
+    }
+  }, []);
+  return(
       <div className="min-h-screen flex flex-col bg-gradient-to-br from-indigo-900 to-purple-800">
         <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <HomePage />
-                <HeroSection username="bhavya" />
+          <Route path="/" element={
+            <>
+                <Navbar/>
+                <HeroSection username={username || "Guest"} />
+                {/* <HeroSection username={localStorage.getItem("username") || "Guest"} /> */}
+
                 <ExploreModelsFlow/>
                 <NeonFlowPage/>
                 <ExploreModelFlow/>
+                <Features/>
+                <LegalCaseSimulation/>
                 <Footer/>
                
               </>
@@ -40,13 +54,13 @@ function App() {
           <Route path="/summarization" element={<Summarization/>}/>
           <Route path="/dictionary" element={<LegalDictionary/>}/>
           <Route path="/NDAtemplate" element={<Ndatemplate/>}/>
+          <Route path="/IPCSections" element={<IPCSections/>}/>
           
           
         </Routes>
       </div>
+          
      
-    </Router>
-  );
-}
-
+  )};
 export default App;
+        

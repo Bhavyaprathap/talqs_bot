@@ -1,4 +1,3 @@
-// src/pages/login.jsx
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -6,6 +5,35 @@ import { Link } from "react-router-dom";
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      // Sending login request to the server
+      const response = await fetch("http://localhost:5000/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, password }),
+      });
+
+      const data = await response.json();
+      if (response.ok) {
+        // Save JWT token and username to localStorage
+        localStorage.setItem("token", data.token);
+        localStorage.setItem("username", data.username);
+        
+        // Redirect to home page after successful login
+        window.location.href = "/";
+      } else {
+        alert(data.error || "Invalid credentials.");
+      }
+    } catch (err) {
+      console.error("Login Error:", err);
+      alert("Server error.");
+    }
+  };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0a0a0a] via-[#090979] to-[#320076] px-4 py-10">
@@ -27,7 +55,7 @@ export default function Login() {
         {/* Form */}
         <div className="w-full md:w-1/2 p-10 text-white">
           <h2 className="text-3xl font-bold mb-6 text-center text-cyan-300 tracking-wide">Login</h2>
-          <form className="space-y-5">
+          <form className="space-y-5" onSubmit={handleLogin}>
             <input
               type="email"
               placeholder="Email"

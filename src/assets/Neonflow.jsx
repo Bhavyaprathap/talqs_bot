@@ -9,14 +9,14 @@ const NeonFlowPage = () => {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 w-[90%] max-w-7xl">
           <div className="max-w-xl">
-            <h2 className="text-4xl font-bold mb-4">Automate your virtual life</h2>
+            <h2 className="text-4xl font-bold mb-4"> Empower Your Legal Mind</h2>
             <p className="text-gray-300 text-lg">
-              Remove the hassle of your virtual life by automating stuff. You can think of Leon as your virtual brain.
+            Unlock the power of AI-driven insights and take charge of your legal research with TALQS
             </p>
           </div>
 
           <div className="bg-black border-2 border-purple-500 rounded-2xl p-4 w-[350px] h-[300px] relative shadow-[0_0_30px_purple]">
-            <img src="/assets/automation.png" alt="Automation" className="w-full h-full object-contain" />
+            <img src="src\assets\WhatsApp Image 2025-04-23 at 13.05.07_43d1ca11.jpg" alt="Automation" className="w-full h-full object-contain" />
           </div>
         </div>
         <br/>
@@ -32,11 +32,11 @@ const NeonFlowPage = () => {
       <section className="relative flex flex-col items-center py-16">
         <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-12 w-[90%] max-w-7xl">
           <div className="bg-black border-2 border-yellow-400 rounded-2xl p-4 w-[350px] h-[300px] relative shadow-[0_0_30px_yellow]">
-            <img src="/assets/imagination.png" alt="Imagination" className="w-full h-full object-contain" />
+            <img src="src\assets\WhatsApp Image 2025-04-23 at 14.09.21_46f30497.jpg" alt="Imagination" className="w-full h-full object-contain" />
           </div>
 
           <div className="max-w-xl">
-            <h2 className="text-4xl font-bold mb-4">Imagination is the only limit</h2>
+            <h2 className="text-4xl font-bold mb-4">⚖️ Simplify Legal Complexity</h2>
             <p className="text-gray-300 text-lg">
               Leon is built on a modular architecture that gives you the flexibility to create or use packages/modules (skills) that fit your need. Be creative.
             </p>
@@ -54,14 +54,14 @@ const NeonFlowPage = () => {
       <section className="relative flex flex-col items-center py-16">
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 w-[90%] max-w-7xl">
           <div className="max-w-xl">
-            <h2 className="text-4xl font-bold mb-4">Continue Your Journey</h2>
+            <h2 className="text-4xl font-bold mb-4">🔍 Your Law, Just One Search Away</h2>
             <p className="text-gray-300 text-lg">
-              Keep exploring features and dive deeper into the virtual assistant experience.
+            Ask, search, and explore IPC sections, legal summaries, and more — effortlessly.
             </p>
           </div>
 
           <div className="bg-black border-2 border-cyan-400 rounded-2xl p-4 w-[350px] h-[300px] relative shadow-[0_0_30px_cyan]">
-            <img src="/assets/explore.png" alt="Explore" className="w-full h-full object-contain" />
+            <img src="src\assets\WhatsApp Image 2025-04-23 at 14.08.07_27b14471.jpg" alt="Explore" className="w-full h-full object-contain" />
           </div>
         </div>
         <br/>

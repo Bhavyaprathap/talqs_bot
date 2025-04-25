@@ -2,4 +2,29 @@
 body {
     @apply bg-[#0a0a0a]; /* dark background to match your gradient */
   }
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0) translateX(0);
+    }
+    50% {
+      transform: translateY(-20px) translateX(10px);
+    }
+  }
+  
+  @keyframes blurPulse {
+    0%, 100% {
+      filter: blur(60px);
+    }
+    50% {
+      filter: blur(80px);
+    }
+  }
+  
+  .animate-float {
+    animation: float 8s ease-in-out infinite;
+  }
+  
+  .animate-blurPulse {
+    animation: blurPulse 10s ease-in-out infinite;
+  }
   

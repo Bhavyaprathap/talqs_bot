@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   FaGavel,
   FaBalanceScale,
@@ -7,6 +8,7 @@ import {
 } from "react-icons/fa";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   const [username, setUsername] = useState("Guest");
 
   useEffect(() => {
@@ -19,7 +21,6 @@ const HeroSection = () => {
   return (
     <section className="min-h-screen w-full bg-[#0a0a0a] text-white px-6 sm:px-10 pt-24 overflow-hidden">
       <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row items-start justify-between h-full pt-12">
-        
         {/* Left Side - Fade In Animation */}
         <div className="w-full md:w-3/5 text-left mb-12 md:mb-0 mt-10 animate-fade-in">
           <br/><br/><br/>
@@ -34,7 +35,10 @@ const HeroSection = () => {
             <li>Trusted Summaries with Legal Context</li>
             <li>Confidential & Encrypted Sessions</li>
           </ul>
-          <button className="mt-4 px-6 sm:px-8 py-4 text-lg sm:text-xl rounded-xl text-[#00ffff] border-2 border-[#00ffff] bg-transparent hover:bg-[#00ffff1a] hover:scale-105 transition duration-300 shadow-xl">
+          <button
+            onClick={() => navigate("/assets/Neonflow")}
+            className="mt-4 px-6 sm:px-8 py-4 text-lg sm:text-xl rounded-xl text-[#00ffff] border-2 border-[#00ffff] bg-transparent hover:bg-[#00ffff1a] hover:scale-105 transition duration-300 shadow-xl"
+          >
             Get Started
           </button>
         </div>

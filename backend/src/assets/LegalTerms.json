@@ -1,0 +1,530 @@
+[{
+    "term": "Bequest",
+    "definition": "Gift of personal property through a will."
+  },
+  {
+    "term": "Best evidence rule",
+    "definition": "Requires original documents when proving contents."
+  },
+  {
+    "term": "Beyond a reasonable doubt",
+    "definition": "Standard of proof required in criminal cases."
+  },
+  {
+    "term": "Bilateral contract",
+    "definition": "Agreement with mutual promises between parties."
+  },
+  {
+    "term": "Bill of attainder",
+    "definition": "Legislative act declaring guilt without trial (unconstitutional)."
+  },
+  {
+    "term": "Bill of particulars",
+    "definition": "Detailed statement of charges or claims."
+  },
+  {
+    "term": "Bill of Rights",
+    "definition": "First ten amendments to the U.S. Constitution."
+  },
+  {
+    "term": "Binding precedent",
+    "definition": "Prior court decision that must be followed."
+  },
+  {
+    "term": "Blank endorsement",
+    "definition": "Signature converting order instrument to bearer instrument."
+  },
+  {
+    "term": "Blue sky laws",
+    "definition": "State securities regulations."
+  },
+  {
+    "term": "Bona fide",
+    "definition": "In good faith; genuine."
+  },
+  {
+    "term": "Bond",
+    "definition": "Financial guarantee of performance or payment."
+  },
+  {
+    "term": "Booking",
+    "definition": "Police process of arresting suspect (photos, fingerprints)."
+  },
+  {
+    "term": "Breach of contract",
+    "definition": "Failure to perform contractual obligations."
+  },
+  {
+    "term": "Brief",
+    "definition": "Written legal argument submitted to court."
+  },
+  {
+    "term": "Burden of proof",
+    "definition": "Obligation to prove allegations."
+  },
+  {
+    "term": "Burglary",
+    "definition": "Unlawful entry with intent to commit crime."
+  },
+  {
+    "term": "Canon law",
+    "definition": "Ecclesiastical law of churches."
+  },
+  {
+    "term": "Capacity",
+    "definition": "Legal ability to enter contracts or make decisions."
+  },
+  {
+    "term": "Capital offense",
+    "definition": "Crime punishable by death."
+  },
+  {
+    "term": "Caption",
+    "definition": "Heading of legal documents identifying parties."
+  },
+  {
+    "term": "Case law",
+    "definition": "Law established by judicial decisions."
+  },
+  {
+    "term": "Cause of action",
+    "definition": "Legal basis for filing a lawsuit."
+  },
+  {
+    "term": "Caveat emptor",
+    "definition": "Let the buyer beware (principle of buyer's responsibility)."
+  },
+  {
+    "term": "Certiorari",
+    "definition": "Writ to review lower court decisions (from Latin 'to be informed')."
+  },
+  {
+    "term": "Challenge for cause",
+    "definition": "Request to dismiss juror for demonstrated bias."
+  },
+  {
+    "term": "Champerty",
+    "definition": "Improper agreement to share lawsuit proceeds."
+  },
+  {
+    "term": "Chancery",
+    "definition": "Court of equity (as opposed to law)."
+  },
+  {
+    "term": "Chattel",
+    "definition": "Movable personal property."
+  },
+  {
+    "term": "Checks and balances",
+    "definition": "Constitutional division of governmental powers."
+  },
+  {
+    "term": "Child support",
+    "definition": "Court-ordered payments for child's expenses."
+  },
+  {
+    "term": "Choice of law",
+    "definition": "Determining which jurisdiction's laws apply."
+  },
+  {
+    "term": "Circumstantial evidence",
+    "definition": "Indirect evidence implying facts."
+  },
+  {
+    "term": "Citation",
+    "definition": "Reference to legal authority; also summons."
+  },
+  {
+    "term": "Civil law",
+    "definition": "Non-criminal legal system; also Roman-derived legal systems."
+  },
+  {
+    "term": "Class action",
+    "definition": "Lawsuit representing group with common claims."
+  },
+  {
+    "term": "Codicil",
+    "definition": "Amendment to a will."
+  },
+  {
+    "term": "Coercion",
+    "definition": "Compelling behavior through force or threats."
+  },
+  {
+    "term": "Collateral estoppel",
+    "definition": "Bar to relitigating issues already decided."
+  },
+  {
+    "term": "Comity",
+    "definition": "Recognition of other jurisdictions' laws."
+  },
+  {
+    "term": "Commutation",
+    "definition": "Reduction of criminal sentence."
+  },
+  {
+    "term": "Comparative negligence",
+    "definition": "Partial fault allocation in tort cases."
+  },
+  {
+    "term": "Compensatory damages",
+    "definition": "Money awarded for actual losses."
+  },
+  {
+    "term": "Competency",
+    "definition": "Mental capacity to stand trial."
+  },
+  {
+    "term": "Complaint",
+    "definition": "Initial pleading starting a lawsuit."
+  },
+  {
+    "term": "Concurrent sentences",
+    "definition": "Multiple sentences served simultaneously."
+  },
+  {
+    "term": "Condemnation",
+    "definition": "Government taking private property (eminent domain)."
+  },
+  {
+    "term": "Condition precedent",
+    "definition": "Event that must occur before contractual duty arises."
+  },
+  {
+    "term": "Confession of judgment",
+    "definition": "Agreement allowing creditor to obtain judgment without suit."
+  },
+  {
+    "term": "Conflict of interest",
+    "definition": "Clash between professional duties and personal interests."
+  },
+  {
+    "term": "Consecutive sentences",
+    "definition": "Multiple sentences served one after another."
+  },
+  {
+    "term": "Consideration",
+    "definition": "Value exchanged in a contract."
+  },
+  {
+    "term": "Conspiracy",
+    "definition": "Agreement to commit unlawful acts."
+  },
+  {
+    "term": "Constructive notice",
+    "definition": "Legal presumption of knowledge (e.g., recorded documents)."
+  },
+  {
+    "term": "Contempt of court",
+    "definition": "Willful disregard for court's authority."
+  },
+  {
+    "term": "Contingency fee",
+    "definition": "Attorney payment as percentage of recovery."
+  },
+  {
+    "term": "Continuance",
+    "definition": "Postponement of court proceeding."
+  },
+  {
+    "term": "Contract",
+    "definition": "Legally enforceable agreement."
+  },
+  {
+    "term": "Conversion",
+    "definition": "Unauthorized control over another's property."
+  },
+  {
+    "term": "Conveyance",
+    "definition": "Transfer of property title."
+  },
+  {
+    "term": "Corpus delicti",
+    "definition": "Body of the crime; proof a crime occurred."
+  },
+  {
+    "term": "Counterclaim",
+    "definition": "Defendant's claim against plaintiff."
+  },
+  {
+    "term": "Court of record",
+    "definition": "Court where proceedings are permanently documented."
+  },
+  {
+    "term": "Covenant",
+    "definition": "Formal promise in a contract or deed."
+  },
+  {
+    "term": "Credibility",
+    "definition": "Believability of a witness."
+  },
+  {
+    "term": "Crime of moral turpitude",
+    "definition": "Offense reflecting dishonesty or depravity."
+  },
+  {
+    "term": "Cross-examination",
+    "definition": "Questioning of opposing party's witness."
+  },
+  {
+    "term": "Curtesy",
+    "definition": "Husband's interest in deceased wife's property (abolished in most jurisdictions)."
+  },
+  {
+    "term": "Custodial interrogation",
+    "definition": "Questioning while in police custody."
+  },
+  {
+    "term": "Damages",
+    "definition": "Monetary compensation for losses."
+  },
+  {
+    "term": "De novo",
+    "definition": "New trial or review (from the beginning)."
+  },
+  {
+    "term": "Debenture",
+    "definition": "Unsecured debt instrument."
+  },
+  {
+    "term": "Declaratory judgment",
+    "definition": "Court ruling on parties' legal rights without ordering action."
+  },
+  {
+    "term": "Decree",
+    "definition": "Court's final judgment in equity cases."
+  },
+  {
+    "term": "Deed",
+    "definition": "Document transferring real property ownership."
+  },
+  {
+    "term": "Defamation",
+    "definition": "False statement harming reputation (libel/slander)."
+  },
+  {
+    "term": "Default judgment",
+    "definition": "Ruling due to party's failure to respond."
+  },
+  {
+    "term": "Defeasance",
+    "definition": "Conditional nullification of a deed or contract."
+  },
+  {
+    "term": "Demurrer",
+    "definition": "Pleading asserting insufficient legal claims."
+  },
+  {
+    "term": "Request for next batch?",
+    "definition": "Reply 'Next' for entries 401-600."
+  },
+    {
+      "term": "Ab initio",
+      "definition": "From the beginning; declaring something legally void from its inception."
+    },
+    {
+      "term": "Actus reus",
+      "definition": "The physical act constituting a criminal offense."
+    },
+    {
+      "term": "Ad damnum clause",
+      "definition": "Specifies the monetary damages sought in a lawsuit."
+    },
+    {
+      "term": "Ad hoc",
+      "definition": "Created for a specific purpose or immediate need."
+    },
+    {
+      "term": "Ad hominem",
+      "definition": "Argument attacking a person rather than their position."
+    },
+    {
+      "term": "Ad idem",
+      "definition": "In agreement; meeting of the minds in contract law."
+    },
+    {
+      "term": "Ad infinitum",
+      "definition": "Continuing without limit; endlessly."
+    },
+    {
+      "term": "Ad litem",
+      "definition": "Appointed specifically for a lawsuit (e.g., guardian ad litem)."
+    },
+    {
+      "term": "Ad valorem",
+      "definition": "According to value (used in taxation)."
+    },
+    {
+      "term": "Additur",
+      "definition": "Court's increase of jury's awarded damages."
+    },
+    {
+      "term": "Adjudication",
+      "definition": "Final judgment in a legal proceeding."
+    },
+    {
+      "term": "Admissible evidence",
+      "definition": "Evidence meeting legal standards for court consideration."
+    },
+    {
+      "term": "Adverse possession",
+      "definition": "Acquiring property rights through continuous unauthorized use."
+    },
+    {
+      "term": "Affiant",
+      "definition": "Person making an affidavit under oath."
+    },
+    {
+      "term": "Affidavit of service",
+      "definition": "Document proving legal documents were properly delivered."
+    },
+    {
+      "term": "Affirmative defense",
+      "definition": "Defendant's evidence negating liability despite plaintiff's claims."
+    },
+    {
+      "term": "Alford plea",
+      "definition": "Guilty plea while maintaining innocence to avoid harsher sentence."
+    },
+    {
+      "term": "Alienation",
+      "definition": "Transfer of property title or rights to another."
+    },
+    {
+      "term": "Alimony",
+      "definition": "Court-ordered financial support after divorce."
+    },
+    {
+      "term": "Alluvion",
+      "definition": "Gradual addition of land by natural forces (e.g., river deposits)."
+    },
+    {
+      "term": "Amicus curiae",
+      "definition": "'Friend of the court' providing expertise on legal issues."
+    },
+    {
+      "term": "Ancillary probate",
+      "definition": "Secondary probate proceeding in another jurisdiction."
+    },
+    {
+      "term": "Annotated code",
+      "definition": "Statutes with explanatory notes and case references."
+    },
+    {
+      "term": "Annulment",
+      "definition": "Legal declaration that a marriage never validly existed."
+    },
+    {
+      "term": "Answer",
+      "definition": "Defendant's formal response to a complaint."
+    },
+    {
+      "term": "Anticipatory breach",
+      "definition": "Contract repudiation before performance is due."
+    },
+    {
+      "term": "Antitrust",
+      "definition": "Laws preventing monopolies and promoting competition."
+    },
+    {
+      "term": "Apparent authority",
+      "definition": "Agent's perceived power to act for a principal."
+    },
+    {
+      "term": "Appeal",
+      "definition": "Request for higher court review of a lower court's decision."
+    },
+    {
+      "term": "Appellant",
+      "definition": "Party appealing a court decision."
+    },
+    {
+      "term": "Appellee",
+      "definition": "Party against whom an appeal is filed."
+    },
+    {
+      "term": "Arbitration",
+      "definition": "Binding dispute resolution outside court."
+    },
+    {
+      "term": "Arraignment",
+      "definition": "Court proceeding where defendant hears charges and enters plea."
+    },
+    {
+      "term": "Arson",
+      "definition": "Willful burning of property with malicious intent."
+    },
+    {
+      "term": "Articles of incorporation",
+      "definition": "Document creating a corporation."
+    },
+    {
+      "term": "Assault",
+      "definition": "Intentional act causing reasonable fear of harmful contact."
+    },
+    {
+      "term": "Assignment",
+      "definition": "Transfer of rights or property to another."
+    },
+    {
+      "term": "Assumpsit",
+      "definition": "Action for breach of contract or promise."
+    },
+    {
+      "term": "Attachment",
+      "definition": "Seizure of property to secure a debt or claim."
+    },
+    {
+      "term": "Attestation",
+      "definition": "Witnessing and signing a legal document."
+    },
+    {
+      "term": "Attorney-client privilege",
+      "definition": "Confidentiality protection for legal communications."
+    },
+    {
+      "term": "Bail",
+      "definition": "Security deposited to ensure court appearance."
+    },
+    {
+      "term": "Bail bond",
+      "definition": "Financial guarantee for defendant's court appearance."
+    },
+    {
+      "term": "Bailiff",
+      "definition": "Court officer maintaining order and security."
+    },
+    {
+      "term": "Bailment",
+      "definition": "Temporary transfer of property possession without ownership transfer."
+    },
+    {
+      "term": "Bankruptcy",
+      "definition": "Legal process for debt relief or reorganization."
+    },
+    {
+      "term": "Bar",
+      "definition": "Licensed legal professionals collectively; also the physical courtroom divider."
+    },
+    {
+      "term": "Battery",
+      "definition": "Intentional harmful or offensive physical contact."
+    },
+    {
+      "term": "Bench trial",
+      "definition": "Trial decided by judge without jury."
+    },
+    {
+      "term": "Bench warrant",
+      "definition": "Judge's order for arrest of non-compliant person."
+    },
+    {
+      "term": "Beneficiary",
+      "definition": "Person entitled to receive trust or will benefits."
+    },
+    {
+      "term": "Request for next batch?",
+      "definition": "Reply 'Next' for entries 201-400."
+    }
+  
+]

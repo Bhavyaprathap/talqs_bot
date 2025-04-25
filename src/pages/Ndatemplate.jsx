@@ -55,7 +55,7 @@ Both parties agree to maintain confidentiality.
   return (
     <div className="min-h-screen bg-gradient-to-bl from-[#1a1a1a] via-[#121212] to-[#2c2c2c] flex items-center justify-center px-6 py-12 font-serif">
       <div className="w-full max-w-xl bg-[#1e1e1e] border border-[#3a3a3a] text-white p-8 rounded-xl shadow-lg shadow-black/30">
-        <h1 className="text-4xl font-bold mb-6 text-center text-yellow-300">
+        <h1 className="text-4xl font-bold mb-6 text-center text-purple-300">
           ⚖️ NDA Generator
         </h1>
 
@@ -93,7 +93,7 @@ Both parties agree to maintain confidentiality.
 
           <button
             type="submit"
-            className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 px-4 rounded-md"
+            className="w-full bg-yellow-400 hover:bg-yellow-600 text-black font-semibold py-2 px-4 rounded-md"
           >
             Generate NDA
           </button>
@@ -101,7 +101,7 @@ Both parties agree to maintain confidentiality.
 
         {ndaText && (
           <>
-            <div className="mt-6 bg-[#2a2a2a] border border-yellow-500/40 p-4 rounded-md text-sm whitespace-pre-wrap text-yellow-100">
+            <div className="mt-6 bg-[#2a2a2a] border border-purple-500/40 p-4 rounded-md text-sm whitespace-pre-wrap text-yellow-100">
               <h2 className="text-lg font-bold mb-2 text-yellow-300">
                 📝 Preview NDA
               </h2>

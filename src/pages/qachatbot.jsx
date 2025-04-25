@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { FiSend, FiCopy, FiRefreshCw, FiMenu } from 'react-icons/fi';
+import { FiSend, FiCopy, FiRefreshCw, FiMenu, FiPaperclip } from 'react-icons/fi';
 import { BsRobot } from 'react-icons/bs';
 import { FaUserCircle } from 'react-icons/fa';
 
@@ -8,49 +8,64 @@ const QAChatBot = () => {
   const [messages, setMessages] = useState([]);
   const [botTyping, setBotTyping] = useState(false);
   const [historyCollapsed, setHistoryCollapsed] = useState(false);
+  const [pdfFile, setPdfFile] = useState(null);
+  const fileInputRef = useRef(null);
   const chatEndRef = useRef(null);
 
-const handleSend = async () => {
-  if (!question.trim()) return;
+  const handleSend = async () => {
+    if (!question.trim() && !pdfFile) return;
 
-  const userMsg = {
-    text: question,
-    sender: 'user',
-    timestamp: new Date().toLocaleTimeString(),
+    const userMsg = {
+      text: pdfFile ? `${question} (with PDF)` : question,
+      sender: 'user',
+      timestamp: new Date().toLocaleTimeString(),
+    };
+
+    setMessages((prev) => [...prev, userMsg]);
+    setQuestion('');
+    setBotTyping(true);
+
+    try {
+      let res, data;
+
+      if (pdfFile) {
+        const formData = new FormData();
+        formData.append('question', question);
+        formData.append('file', pdfFile);
+
+        res = await fetch("http://localhost:5000/ask_pdf", {
+          method: "POST",
+          body: formData,
+        });
+      } else {
+        res = await fetch("http://localhost:5000/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question }),
+        });
+      }
+
+      data = await res.json();
+
+      const botMsg = {
+        text: `🧠 ${data.answer}`,
+        sender: 'bot',
+        timestamp: new Date().toLocaleTimeString(),
+      };
+
+      setMessages((prev) => [...prev, botMsg]);
+      setPdfFile(null); // reset file
+    } catch (err) {
+      const errorMsg = {
+        text: "❌ Error getting response. Please try again.",
+        sender: 'bot',
+        timestamp: new Date().toLocaleTimeString(),
+      };
+      setMessages((prev) => [...prev, errorMsg]);
+    }
+
+    setBotTyping(false);
   };
-
-  setMessages((prev) => [...prev, userMsg]);
-  setQuestion('');
-  setBotTyping(true);
-
-  try {
-    const res = await fetch("http://localhost:5000/ask", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ question }),
-    });
-
-    const data = await res.json();
-
-    const botMsg = {
-      text: `🧠 ${data.answer}`, // Use real backend response
-      sender: 'bot',
-      timestamp: new Date().toLocaleTimeString(),
-    };
-
-    setMessages((prev) => [...prev, botMsg]);
-  } catch (err) {
-    const errorMsg = {
-      text: "❌ Error getting response. Please try again.",
-      sender: 'bot',
-      timestamp: new Date().toLocaleTimeString(),
-    };
-    setMessages((prev) => [...prev, errorMsg]);
-  }
-
-  setBotTyping(false);
-};
-
 
   const handleCopy = (text) => {
     navigator.clipboard.writeText(text);
@@ -172,8 +187,8 @@ const handleSend = async () => {
           <div ref={chatEndRef} />
         </div>
 
-        {/* Input */}
-        <div className="flex items-center bg-gray-800/60 p-4 rounded-lg shadow-md">
+        {/* Input Area */}
+        <div className="flex items-center bg-gray-800/60 p-4 rounded-lg shadow-md gap-2">
           <input
             type="text"
             placeholder="Ask your legal question..."
@@ -182,13 +197,30 @@ const handleSend = async () => {
             onChange={(e) => setQuestion(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && handleSend()}
           />
+          <input
+            type="file"
+            accept=".pdf"
+            ref={fileInputRef}
+            style={{ display: 'none' }}
+            onChange={(e) => setPdfFile(e.target.files[0])}
+          />
+          <button
+            onClick={() => fileInputRef.current.click()}
+            className="text-cyan-400 hover:text-white transition"
+            title="Attach PDF"
+          >
+            <FiPaperclip size={20} />
+          </button>
           <button
             onClick={handleSend}
-            className="ml-4 p-3 bg-cyan-600 hover:bg-cyan-500 text-white rounded-full transition"
+            className="p-3 bg-cyan-600 hover:bg-cyan-500 text-white rounded-full transition"
           >
             <FiSend size={20} />
           </button>
         </div>
+        {pdfFile && (
+          <div className="text-sm text-cyan-300 mt-2">📎 Attached: {pdfFile.name}</div>
+        )}
       </div>
     </div>
   );

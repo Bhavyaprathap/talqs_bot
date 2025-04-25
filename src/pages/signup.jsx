@@ -14,6 +14,30 @@ export default function Signup() {
     { label: "Has an uppercase letter", test: (pass) => /[A-Z]/.test(pass) },
     { label: "Has a lowercase letter", test: (pass) => /[a-z]/.test(pass) },
   ];
+  const handleSignup = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch("http://localhost:5000/signup", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ username, email, password }),
+      });
+  
+      const data = await response.json();
+      if (response.ok) {
+        alert("Signup successful! Please login.");
+        window.location.href = "/login";
+      } else {
+        alert(data.error || "Signup failed.");
+      }
+    } catch (err) {
+      console.error("Signup Error:", err);
+      alert("Server error.");
+    }
+  };
+  
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0a0a0a] via-[#090979] to-[#320076] px-4 py-10">
@@ -35,7 +59,7 @@ export default function Signup() {
         {/* Right - Form */}
         <div className="w-full md:w-1/2 p-10 text-white">
           <h2 className="text-3xl font-bold mb-6 text-center text-cyan-300 tracking-wide">Sign Up</h2>
-          <form className="space-y-5">
+          <form className="space-y-5" onSubmit={handleSignup}>
             <input
               type="text"
               placeholder="Username"
