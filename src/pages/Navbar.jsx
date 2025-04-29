@@ -6,6 +6,8 @@ const Navbar = () => {
   const navigate = useNavigate();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
+  const [userInitial, setUserInitial] = useState("G");
+  const [userEmail, setUserEmail] = useState("");
 
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
   const openProfileModal = () => setIsProfileModalOpen(true);
@@ -13,8 +15,13 @@ const Navbar = () => {
 
   useEffect(() => {
     const token = localStorage.getItem("token");
+    const email = localStorage.getItem("account_email");
+    
     if (!token) {
       navigate("/login");
+    } else if (email) {
+      setUserEmail(email);
+      setUserInitial(email.charAt(0).toUpperCase());
     }
   }, [navigate]);
 
@@ -39,12 +46,14 @@ const Navbar = () => {
               <li onClick={() => navigate("/dictionary")} className="hover:text-purple-300 cursor-pointer">Legal Dictionary</li>
               <li onClick={() => navigate("/NDAtemplate")} className="hover:text-purple-300 cursor-pointer">NDA</li>
               <li onClick={() => navigate("/IPCSections")} className="hover:text-purple-300 cursor-pointer">IPC Sections </li>
-              {/* <li onClick={() => navigate("/help")} className="hover:text-purple-300 cursor-pointer">Help</li> */}
             </ul>
 
-            {/* Profile Icon */}
-            <button onClick={openProfileModal} className="text-4xl text-pink-400 hover:text-purple-400 ml-4">
-              <FaUserCircle />
+            {/* Profile Icon - Shows user initial */}
+            <button 
+              onClick={openProfileModal} 
+              className="w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-pink-500 flex items-center justify-center text-white font-bold hover:from-purple-500 hover:to-pink-400 transition-all"
+            >
+              {userInitial}
             </button>
           </div>
         </div>
@@ -72,15 +81,23 @@ const Navbar = () => {
             <button onClick={closeProfileModal} className="absolute top-4 right-4 text-white hover:text-red-400">
               <FaTimes size={20} />
             </button>
-            <h2 className="text-2xl font-semibold mb-4">Your Profile</h2>
-            <div className="space-y-2">
-              <p><strong>Name:</strong> {/* fetch from state or context */} Guest</p>
-              <p><strong>Email:</strong> {/* fetch from state or context */} guest@example.com</p>
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-600 to-pink-500 flex items-center justify-center text-2xl font-bold">
+                {userInitial}
+              </div>
+              <div>
+                <h2 className="text-xl font-semibold">User Profile</h2>
+                <p className="text-gray-300">{userEmail}</p>
+              </div>
             </div>
             <div className="mt-6 flex flex-col gap-3">
               <button onClick={() => { navigate('/profile'); closeProfileModal(); }} className="py-2 px-4 bg-purple-600 hover:bg-purple-500 rounded">Edit Profile</button>
               <button onClick={() => { navigate('/settings'); closeProfileModal(); }} className="py-2 px-4 bg-purple-600 hover:bg-purple-500 rounded">Settings</button>
-              <button onClick={() => { localStorage.removeItem('token'); navigate('/login'); }} className="py-2 px-4 bg-red-600 hover:bg-red-500 rounded">Sign Out</button>
+              <button onClick={() => { 
+                localStorage.removeItem('token'); 
+                localStorage.removeItem('account_email');
+                navigate('/login'); 
+              }} className="py-2 px-4 bg-red-600 hover:bg-red-500 rounded">Sign Out</button>
             </div>
           </div>
         </div>
