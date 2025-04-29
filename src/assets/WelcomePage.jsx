@@ -12,8 +12,13 @@ const WelcomePage = () => {
   const [username, setUsername] = useState("Guest");
 
   useEffect(() => {
-    const stored = localStorage.getItem("talqsUser");
-    if (stored) setUsername(stored);
+    const email = localStorage.getItem("account_email");
+    if (email) {
+      // Extract the name part from email (before @) and capitalize first letter
+      const nameFromEmail = email.split('@')[0];
+      const formattedName = nameFromEmail.charAt(0).toUpperCase() + nameFromEmail.slice(1);
+      setUsername(formattedName);
+    }
   }, []);
 
   const [text] = useTypewriter({
@@ -31,7 +36,6 @@ const WelcomePage = () => {
     { icon: <FaUniversity />, label: "Academia", angle: 216, color: "#00ff99" },
     { icon: <FaBuilding />, label: "Corporate", angle: 288, color: "#ff8800" },
   ];
-
   return (
     <section className="hero">
       {/* Background elements */}
