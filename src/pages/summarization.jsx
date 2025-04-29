@@ -1,157 +1,174 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { FiSend, FiCopy, FiRefreshCw, FiMenu } from 'react-icons/fi';
-import { BsRobot } from 'react-icons/bs';
-import { FaUserCircle } from 'react-icons/fa';
+import React, { useState, useRef, useEffect } from 'react';
+import { FiSend, FiUpload, FiCopy, FiRefreshCcw, FiLogOut, FiMenu, FiX } from 'react-icons/fi';
+import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 
 const Summarization = () => {
-  const [question, setQuestion] = useState('');
-  const [messages, setMessages] = useState([]);
-  const [botTyping, setBotTyping] = useState(false);
-  const [historyCollapsed, setHistoryCollapsed] = useState(false);
+  const [userMessage, setUserMessage] = useState('');
+  const [chatHistory, setChatHistory] = useState([]);
+  const [isBotTyping, setIsBotTyping] = useState(false);
+  const [selectedFile, setSelectedFile] = useState(null);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+
   const chatEndRef = useRef(null);
 
-  const handleSend = () => {
-    if (!question.trim()) return;
+  const scrollToBottom = () => {
+    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
 
-    const userMsg = {
-      text: question,
-      sender: 'user',
-      timestamp: new Date().toLocaleTimeString(),
-    };
+  useEffect(() => {
+    scrollToBottom();
+  }, [chatHistory, isBotTyping]);
 
-    setMessages((prev) => [...prev, userMsg]);
-    setQuestion('');
-    setBotTyping(true);
+  const handleSendMessage = async () => {
+    if (!userMessage.trim() && !selectedFile) return;
 
-    // Simulate bot typing delay
+    const newUserMessage = { sender: 'user', text: userMessage || selectedFile?.name };
+    setChatHistory((prev) => [...prev, newUserMessage]);
+    setUserMessage('');
+    setSelectedFile(null);
+    setIsBotTyping(true);
+
+    // Simulate bot reply
     setTimeout(() => {
-      const botMsg = {
-        text: `🧠 AI Answer to: "${userMsg.text}"`,
+      const newBotMessage = {
         sender: 'bot',
-        timestamp: new Date().toLocaleTimeString(),
+        text: `This is a generated answer for: "${newUserMessage.text}"`,
       };
-      setMessages((prev) => [...prev, botMsg]);
-      setBotTyping(false);
-    }, 1000);
+      setChatHistory((prev) => [...prev, newBotMessage]);
+      setIsBotTyping(false);
+    }, 1500);
+  };
+
+  const handleFileChange = (e) => {
+    setSelectedFile(e.target.files[0]);
   };
 
   const handleCopy = (text) => {
     navigator.clipboard.writeText(text);
   };
 
-  const handleRegenerate = (lastQuestion) => {
-    setBotTyping(true);
+  const handleRegenerate = (userText) => {
+    if (!userText) return;
+    setIsBotTyping(true);
     setTimeout(() => {
-      const botMsg = {
-        text: `🧠 Regenerated answer to: "${lastQuestion}"`,
+      const newBotMessage = {
         sender: 'bot',
-        timestamp: new Date().toLocaleTimeString(),
+        text: `Regenerated answer for: "${userText}"`,
       };
-      setMessages((prev) => [...prev, botMsg]);
-      setBotTyping(false);
-    }, 1000);
+      setChatHistory((prev) => [...prev, newBotMessage]);
+      setIsBotTyping(false);
+    }, 1500);
   };
 
-  useEffect(() => {
-    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, botTyping]);
+  const handleExit = () => {
+    window.location.href = '/';
+  };
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
 
   return (
-    <div className="flex min-h-screen text-white bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364]">
+    <div className="flex h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white overflow-hidden">
+      
       {/* Sidebar */}
-      <div className="w-72 bg-[#0f172a]/60 backdrop-blur-md p-4 border-r border-gray-600 shadow-md">
-        <div className="flex justify-between items-center mb-4">
-          <h1 className="text-3xl font-bold text-cyan-400">TALQS</h1>
-          <button onClick={() => setHistoryCollapsed(!historyCollapsed)} className="text-cyan-300">
-            <FiMenu size={20} />
+      <div className={`${isSidebarOpen ? 'w-64' : 'w-16'} bg-gray-900/70 backdrop-blur-md transition-all duration-300 shadow-md flex flex-col`}>
+        <div className="flex items-center justify-between p-4">
+          {isSidebarOpen && <h1 className="text-xl font-bold">Chat History</h1>}
+          <button onClick={toggleSidebar} className="text-white">
+            {isSidebarOpen ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>
         </div>
 
-        {!historyCollapsed && (
-          <>
-            <h2 className="text-lg font-semibold text-gray-300">History</h2>
-            <ul className="flex flex-col gap-2 mt-2 overflow-y-auto max-h-[70vh]">
-              {messages
-                .filter((msg) => msg.sender === 'user')
-                .map((msg, i) => (
-                  <li
-                    key={i}
-                    className="bg-gray-700/60 p-2 rounded text-sm hover:bg-gray-600/60 transition"
-                  >
-                    {msg.text}
-                    <div className="text-xs text-right text-gray-400">{msg.timestamp}</div>
-                  </li>
-                ))}
-            </ul>
-          </>
+        {isSidebarOpen && (
+          <div className="flex-1 overflow-y-auto p-4 space-y-2">
+            {chatHistory.filter(msg => msg.sender === 'user').map((msg, idx) => (
+              <div
+                key={idx}
+                className="p-2 bg-gray-700 rounded hover:bg-cyan-600 transition text-sm truncate cursor-pointer"
+                title={msg.text}
+                onClick={() => setUserMessage(msg.text)}
+              >
+                {msg.text}
+              </div>
+            ))}
+          </div>
         )}
+
+        <div className="p-4">
+          <button
+            onClick={handleExit}
+            className="w-full flex items-center justify-center gap-2 p-2 bg-red-500 hover:bg-red-600 rounded transition"
+          >
+            <FiLogOut />
+            {isSidebarOpen && "Exit"}
+          </button>
+        </div>
       </div>
 
-      {/* Main Chat Area */}
-      <div className="flex flex-col flex-1 p-6 relative">
-        <div className="text-3xl font-semibold text-cyan-300 mb-4">Legal Summarization Chatbot</div>
-
-        <div className="flex-1 bg-white/5 backdrop-blur-xl rounded-xl p-6 mb-4 overflow-y-auto space-y-4 shadow-inner border border-white/10">
-          {messages.map((msg, idx) => (
-            <div
-              key={idx}
-              className={`flex items-start ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}
-            >
-              {msg.sender === 'bot' && <BsRobot className="text-cyan-400 text-xl mr-2 mt-1" />}
-              <div
-                className={`max-w-[70%] p-4 rounded-lg shadow-md relative group transition ${
-                  msg.sender === 'user'
-                    ? 'bg-gradient-to-br from-cyan-600 to-blue-500 text-white rounded-br-none'
-                    : 'bg-gray-800/70 text-green-200 rounded-bl-none'
-                }`}
-              >
-                <p className="text-sm whitespace-pre-line">{msg.text}</p>
-                <div className="text-xs text-right text-gray-300 mt-1">{msg.timestamp}</div>
+      {/* Chat Area */}
+      <div className="flex-1 flex flex-col overflow-hidden">
+        <div className="flex-1 overflow-y-auto p-6 space-y-4">
+          {chatHistory.map((msg, idx) => (
+            <div key={idx} className={`flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
+              <div className={`max-w-xs p-4 rounded-2xl shadow-md ${
+                msg.sender === 'user' ? 'bg-gradient-to-r from-cyan-500 to-blue-500 text-white' : 'bg-gray-700 text-white'
+              }`}>
+                {msg.text}
                 {msg.sender === 'bot' && (
-                  <div className="absolute right-2 bottom-2 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                    <button onClick={() => handleCopy(msg.text)} className="text-gray-400 hover:text-white">
+                  <div className="flex gap-2 mt-2">
+                    <button
+                      onClick={() => handleCopy(msg.text)}
+                      className="text-xs hover:text-cyan-300"
+                    >
                       <FiCopy />
                     </button>
                     <button
-                      onClick={() => handleRegenerate(messages[messages.length - 2]?.text)}
-                      className="text-gray-400 hover:text-white"
+                      onClick={() => handleRegenerate(chatHistory[idx - 1]?.text)}
+                      className="text-xs hover:text-cyan-300"
                     >
-                      <FiRefreshCw />
+                      <FiRefreshCcw />
                     </button>
                   </div>
                 )}
               </div>
-              {msg.sender === 'user' && <FaUserCircle className="text-cyan-400 text-xl ml-2 mt-1" />}
             </div>
           ))}
-
-          {botTyping && (
-            <div className="text-green-400 italic animate-pulse">Bot is typing...</div>
+          {isBotTyping && (
+            <div className="flex justify-start">
+              <div className="p-4 bg-gray-700 text-white rounded-2xl max-w-xs flex items-center gap-2">
+                <AiOutlineLoading3Quarters className="animate-spin" />
+                <span className="animate-pulse">Typing...</span>
+              </div>
+            </div>
           )}
-
           <div ref={chatEndRef} />
         </div>
 
         {/* Input */}
-        <div className="flex items-center bg-gray-800/60 p-4 rounded-lg shadow-md">
+        <div className="bg-gray-900/80 p-4 flex items-center gap-2 shadow-inner">
           <input
             type="text"
-            placeholder="Ask your legal question..."
-            className="flex-1 bg-transparent outline-none text-white placeholder-gray-400 text-lg"
-            value={question}
-            onChange={(e) => setQuestion(e.target.value)}
-            onKeyDown={(e) => e.key === 'Enter' && handleSend()}
+            placeholder="Type your message..."
+            className="flex-1 p-3 rounded-2xl bg-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-400 text-white"
+            value={userMessage}
+            onChange={(e) => setUserMessage(e.target.value)}
+            onKeyDown={(e) => e.key === 'Enter' && handleSendMessage()}
           />
+          <label className="cursor-pointer">
+            <FiUpload size={24} className="hover:text-cyan-300" />
+            <input type="file" className="hidden" onChange={handleFileChange} />
+          </label>
           <button
-            onClick={handleSend}
-            className="ml-4 p-3 bg-cyan-600 hover:bg-cyan-500 text-white rounded-full transition"
+            onClick={handleSendMessage}
+            className="p-3 bg-cyan-600 hover:bg-cyan-700 rounded-2xl text-white"
           >
-            <FiSend size={20} />
+            <FiSend size={24} />
           </button>
         </div>
       </div>
+
     </div>
-    
   );
 };
 

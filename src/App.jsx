@@ -3,9 +3,11 @@ import Login from "./pages/login.jsx";
 import Signup from "./pages/signup.jsx";
 import Navbar from "./pages/Navbar.jsx";
 import React, { useState, useEffect } from "react";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import WelcomePage from './assets/WelcomePage';
 
-import HeroSection from "./assets/herosection.jsx";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NotePage from "./pages/NotePage.jsx";
+// import HeroSection from "./assets/herosection.jsx";
 import ExploreModelsFlow from "./assets/qasumm.jsx";
 import ExploreModelFlow from "./assets/contents.jsx";
 import QABotChat from "./pages/qachatbot.jsx";
@@ -34,8 +36,9 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
+
                 <Navbar/>
-                <HeroSection username={username || "Guest"} />
+                <WelcomePage username={username || "Guest"} />
                 {/* <HeroSection username={localStorage.getItem("username") || "Guest"} /> */}
 
                 <ExploreModelsFlow/>
@@ -50,11 +53,15 @@ function App() {
           />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          {/* <Route path="/" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/talqs" element={<TALQSReveal />} /> */}
           <Route path="/qachatbot" element={<QABotChat/>}/>
           <Route path="/summarization" element={<Summarization/>}/>
           <Route path="/dictionary" element={<LegalDictionary/>}/>
           <Route path="/NDAtemplate" element={<Ndatemplate/>}/>
           <Route path="/IPCSections" element={<IPCSections/>}/>
+          <Route path="/NotePage" element={<NotePage/>}/>
           
           
         </Routes>

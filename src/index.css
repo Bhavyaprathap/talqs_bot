@@ -1,30 +1,44 @@
 @import "tailwindcss";
+
+/* Global styles */
 body {
-    @apply bg-[#0a0a0a]; /* dark background to match your gradient */
+  @apply bg-[#0a0a0a] text-white; /* Tailwind dark background and white text */
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  animation: waveAnimation 20s infinite linear alternate;
+}
+
+/* Animations */
+@keyframes waveAnimation {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
   }
-  @keyframes float {
-    0%, 100% {
-      transform: translateY(0) translateX(0);
-    }
-    50% {
-      transform: translateY(-20px) translateX(10px);
-    }
+  50% {
+    transform: translateY(-20px) translateX(10px);
   }
-  
-  @keyframes blurPulse {
-    0%, 100% {
-      filter: blur(60px);
-    }
-    50% {
-      filter: blur(80px);
-    }
+}
+
+@keyframes blurPulse {
+  0%, 100% {
+    filter: blur(60px);
   }
-  
-  .animate-float {
-    animation: float 8s ease-in-out infinite;
+  50% {
+    filter: blur(80px);
   }
-  
-  .animate-blurPulse {
-    animation: blurPulse 10s ease-in-out infinite;
-  }
-  
+}
+
+/* Utility classes for animations */
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+}
+
+.animate-blurPulse {
+  animation: blurPulse 10s ease-in-out infinite;
+}

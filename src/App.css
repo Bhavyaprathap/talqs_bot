@@ -1,8 +1,30 @@
 /* src/pages/App.css */
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #0a0a0a;
-  color: white;
+  /* @apply text-white; */
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  animation: waveAnimation 20s infinite linear alternate;
+}
+@keyframes slide {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes carousel {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* make sure these are inline‐block so the slide works */
+.animate-slide {
+  display: inline-block;
+  white-space: nowrap;
+  animation: slide 15s linear infinite;
+}
+
+.animate-carousel {
+  display: inline-block;
+  animation: carousel 20s linear infinite;
 }

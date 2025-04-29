@@ -1,0 +1,145 @@
+/* src/components/HeroSection.module.css */
+.heroSection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(ellipse at center, #0a0a23 0%, #000000 100%);
+    overflow: hidden;
+    color: white;
+  }
+  
+  .typingText {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00ffff;
+    animation: fadeDown 2s ease-out;
+  }
+  
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0px); }
+  }
+  
+  .mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+    padding: 2rem;
+  }
+  
+  .leftContent {
+    flex: 1;
+    max-width: 35%;
+  }
+  
+  .centerContent {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .welcomeText {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .description {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #cccccc;
+  }
+  
+  .pointsList {
+    margin-top: 1.5rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pointsList li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .getStartedButton {
+    margin-top: 2rem;
+    padding: 12px 24px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: linear-gradient(45deg, #00ffff, #ff00ff);
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .getStartedButton:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+  }
+  
+  .keen-slider__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #00ffff;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 150px;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #00ffff;
+  }
+  
+  .floatingLeft,
+  .floatingRight {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, rgba(0, 255, 255, 0.4) 0%, transparent 70%);
+    border-radius: 50%;
+    animation: float 10s ease-in-out infinite;
+    opacity: 0.4;
+  }
+  
+  .floatingLeft {
+    top: 10%;
+    left: -5%;
+  }
+  
+  .floatingRight {
+    bottom: 10%;
+    right: -5%;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(20px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  /* Stars background */
+  .stars {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: transparent url('https://raw.githubusercontent.com/VincentGarreau/particles.js/master/demo/media/stars.png') repeat;
+    animation: starsMove 60s linear infinite;
+    opacity: 0.2;
+  }
+  
+  @keyframes starsMove {
+    0% { background-position: 0 0; }
+    100% { background-position: 1000px 1000px; }
+  }
+  

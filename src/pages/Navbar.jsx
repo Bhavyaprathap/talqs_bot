@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="flex items-center gap-6 ml-auto">
             {/* Desktop Links */}
             <ul className="hidden md:flex gap-8 text-[17px] font-medium">
-              <li onClick={() => navigate("/about")} className="hover:text-purple-300 cursor-pointer">About</li>
+              <li onClick={() => navigate("/NotePage")} className="hover:text-purple-300 cursor-pointer">Notes</li>
               <li onClick={() => navigate("/qachatbot")} className="hover:text-purple-300 cursor-pointer">Q/A chatbot</li>
               <li onClick={() => navigate("/summarization")} className="hover:text-purple-300 cursor-pointer">Summary chatbot</li>
               <li onClick={() => navigate("/dictionary")} className="hover:text-purple-300 cursor-pointer">Legal Dictionary</li>

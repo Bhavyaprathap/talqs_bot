@@ -8,17 +8,31 @@ from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.units import inch
 from reportlab.lib import colors
 from transformers import pipeline
+from database import users_collection
+import bcrypt
+import jwt 
+import datetime
+from database import users_collection
+
+
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+SECRET_KEY = os.getenv("SECRET_KEY")
+
+
 
 app = Flask(__name__)
 CORS(app)
+
 
 # Initialize QA pipeline
 qa_pipeline = pipeline("question-answering", model="distilbert-base-cased-distilled-squad")
 
 # Sample context (can be dynamic later)
 LEGAL_CONTEXT = """
-A contract is a legally binding agreement between two or more parties that is enforceable by law. 
-In order for a contract to be valid, it must contain an offer, acceptance, consideration, and the intention to create legal relations.
+In today's rapidly evolving digital age, technology plays an increasingly vital role in shaping our lives, influencing everything from the way we communicate and work to how we learn and entertain ourselves. With the advent of artificial intelligence, machine learning, and automation, industries across the globe are experiencing unprecedented transformations. Education, for instance, has been revolutionized through online learning platforms, enabling students to access knowledge and resources from anywhere in the world. Similarly, healthcare has seen remarkable advancements with telemedicine, wearable health monitors, and AI-assisted diagnostics improving patient care and early detection of diseases. In the business realm, data analytics and cloud computing have empowered companies to make smarter, faster decisions based on real-time insights. While these innovations bring immense benefits, they also raise important questions about privacy, security, and the ethical use of technology. As we navigate this complex landscape, it is crucial to strike a balance between embracing progress and safeguarding our values, ensuring that technology serves humanity positively and inclusively. Only through thoughtful implementation, continuous learning, and collaborative efforts can we harness the full potential of technological innovation for a better and more equitable future.
 """
 
 # ----------- NDA PDF GENERATION -----------
@@ -97,6 +111,73 @@ def ask_question():
         return jsonify({"answer": result["answer"]})
     except Exception as e:
         return jsonify({"answer": f"❌ Error: {str(e)}"}), 500
+
+
+#authentication
+@app.route('/signup',methods=["POST"])
+
+
+
+def signup():
+    data=request.get_json()
+    email=data.get('email')
+    password=data.get('password')
+    if users_collection.find_one({"email":email}):
+        return jsonify({"message":"user already exists"}),400
+    hashed_password=bcrypt.hashpw(password.encode('utf-8'),bcrypt.gensalt())
+    users_collection.insert_one({"email":email,"password":hashed_password})
+    return jsonify({"message":"signup successuful"}),201
+
+
+#Login auth
+
+@app.route("/login", methods=["POST"])
+def login():
+    data = request.get_json()
+    email = data.get("email")
+    password = data.get("password")
+    user = users_collection.find_one({"email": email})
+    print("User from DB:", user)
+    print("Password provided:", password)
+    print("Password matches:", bcrypt.checkpw(password.encode("utf-8"), user["password"]))
+
+
+    if user and bcrypt.checkpw(password.encode("utf-8"), user["password"]):
+        token = jwt.encode(
+            {
+                "email": email,
+                "exp": datetime.datetime.utcnow() + datetime.timedelta(hours=1),
+            },
+            SECRET_KEY,
+            algorithm="HS256",
+        )
+        return jsonify({"message": "Login successful", "token": token, "user": email}), 200
+
+    return jsonify({"message": "Invalid credentials"}), 401
+@app.route("/verify-token", methods=["POST"])
+def verify_token():
+    data = request.get_json()
+    token = data.get("token", "")
+
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+        return jsonify({"valid": True, "email": payload["email"]}), 200
+    except jwt.ExpiredSignatureError:
+        return jsonify({"valid": False, "error": "Token expired"}), 401
+    except jwt.InvalidTokenError:
+        return jsonify({"valid": False, "error": "Invalid token"}), 401
+@app.route("/test-db")
+def test_db():
+    try:
+        users = list(users_collection.find())
+        return jsonify({"success": True, "users": [u['email'] for u in users]}), 200
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
+
+
+
+
+
 
 
 if __name__ == "__main__":
