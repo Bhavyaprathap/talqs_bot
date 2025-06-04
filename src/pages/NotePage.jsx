@@ -1,33 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import { FaEdit, FaSave, FaTimes, FaExpand, FaCompress, FaFont, FaPalette, FaHighlighter, FaPrint, FaDownload, FaMoon, FaSun, FaImage, FaShapes } from 'react-icons/fa';
+import { FaEdit, FaSave, FaTimes, FaExpand, FaCompress, FaFont, FaPalette, FaHighlighter, FaPrint, FaDownload, FaMoon, FaSun, FaImage, FaShapes, FaPlus, FaBook } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+import 'quill/dist/quill.snow.css';
 import html2canvas from 'html2canvas';
 
 const fontColorPalette = [
-  '#000000', // Black
-  '#333333', // Dark Gray
-  '#555555', // Gray
-  '#777777', // Medium Gray
-  '#ffffff', // White
-  '#9f7aea', // Purple
-  '#f687b3', // Pink
-  '#f6ad55', // Orange
-  '#68d391', // Green
-  '#63b3ed', // Blue
-  '#fefcbf', // Yellow
-  '#fed7d7'  // Red
+  '#000000', '#333333', '#555555', '#777777', '#ffffff', 
+  '#9f7aea', '#f687b3', '#f6ad55', '#68d391', '#63b3ed', 
+  '#fefcbf', '#fed7d7'
 ];
 
 const highlightPalette = [
-  'rgba(159, 122, 234, 0.3)', // Purple
-  'rgba(246, 135, 179, 0.3)', // Pink
-  'rgba(246, 173, 85, 0.3)',  // Orange
-  'rgba(104, 211, 145, 0.3)', // Green
-  'rgba(99, 179, 237, 0.3)',  // Blue
-  'rgba(254, 252, 191, 0.3)', // Yellow
-  'rgba(254, 215, 215, 0.3)'  // Red
+  'rgba(159, 122, 234, 0.3)', 'rgba(246, 135, 179, 0.3)', 
+  'rgba(246, 173, 85, 0.3)', 'rgba(104, 211, 145, 0.3)', 
+  'rgba(99, 179, 237, 0.3)', 'rgba(254, 252, 191, 0.3)', 
+  'rgba(254, 215, 215, 0.3)'
 ];
 
 const shapeOptions = [
@@ -47,72 +35,72 @@ const fontOptions = [
   { value: 'Verdana', label: 'Verdana' }
 ];
 
-const legalIcons = ['⚖️', '🔨', '📜', '📚', '🖋️', '🧑‍⚖️', '🏛️', '🔍'];
+const legalIcons = ['⚖', '🔨', '📜', '📚', '🖋', '🧑‍⚖', '🏛', '🔍'];
 
-const initialNotes = {
-  '2025-04-29': [
-    { 
-      id: 1, 
-      title: 'Meeting Notes', 
-      content: '<p>Discussed <strong>legal draft</strong> with client.</p>', 
-      time: '10:00 AM', 
-      editable: false, 
-      editedAt: null,
-      fontColor: '#000000',
-      highlight: null,
-      font: 'Times New Roman',
-      icon: '⚖️',
-      shape: 'rectangle',
-      bgImage: null
-    },
-    { 
-      id: 2, 
-      title: 'Client Call', 
-      content: '<p>Talked about <u>NDA terms</u>.</p>', 
-      time: '2:00 PM', 
-      editable: false, 
-      editedAt: null,
-      fontColor: '#000000',
-      highlight: null,
-      font: 'Times New Roman',
-      icon: '📜',
-      shape: 'rectangle',
-      bgImage: null
-    },
-  ],
-  '2025-04-28': [
-    { 
-      id: 3, 
-      title: 'Review', 
-      content: '<p>Reviewed <em>IPR law</em> sections 3-5.</p>', 
-      time: '5:00 PM', 
-      editable: false, 
-      editedAt: null,
-      fontColor: '#000000',
-      highlight: null,
-      font: 'Times New Roman',
-      icon: '📚',
-      shape: 'rectangle',
-      bgImage: null
-    },
-  ],
+// Load initial notes from localStorage or use default
+const loadInitialNotes = () => {
+  const savedNotes = localStorage.getItem('legalNotes');
+  if (savedNotes) {
+    return JSON.parse(savedNotes);
+  } else {
+    const today = new Date().toISOString().split('T')[0];
+    return {
+      [today]: [
+        { 
+          id: 1, 
+          title: 'Meeting Notes', 
+          content: '<p>Discussed <strong>legal draft</strong> with client.</p>', 
+          time: '10:00 AM', 
+          editable: false, 
+          editedAt: null,
+          fontColor: '#000000',
+          highlight: null,
+          font: 'Times New Roman',
+          icon: '⚖',
+          shape: 'rectangle',
+          bgImage: null
+        }
+      ]
+    };
+  }
 };
 
 const NotePage = () => {
-  const [notes, setNotes] = useState(initialNotes);
-  const [selectedDate, setSelectedDate] = useState('2025-04-29');
+  const [notes, setNotes] = useState(loadInitialNotes());
+  const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
   const [editingNoteId, setEditingNoteId] = useState(null);
   const [fullScreenNote, setFullScreenNote] = useState(null);
   const [currentFontColor, setCurrentFontColor] = useState('#000000');
   const [currentHighlight, setCurrentHighlight] = useState(null);
   const [currentFont, setCurrentFont] = useState('Times New Roman');
   const [currentShape, setCurrentShape] = useState('rectangle');
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const [showFontDropdown, setShowFontDropdown] = useState(false);
   const [showColorDropdown, setShowColorDropdown] = useState(false);
   const [showHighlightDropdown, setShowHighlightDropdown] = useState(false);
   const [showShapeDropdown, setShowShapeDropdown] = useState(false);
   const [imageUpload, setImageUpload] = useState(null);
+  const [showNewNoteForm, setShowNewNoteForm] = useState(false);
+  const [newNoteTitle, setNewNoteTitle] = useState('');
+  const [newNoteContent, setNewNoteContent] = useState('');
+  const [viewMode, setViewMode] = useState('edit');
+
+  // Save notes to localStorage whenever they change
+  useEffect(() => {
+    localStorage.setItem('legalNotes', JSON.stringify(notes));
+  }, [notes]);
+
+  // Initialize with today's date if it doesn't exist
+  useEffect(() => {
+    const today = new Date().toISOString().split('T')[0];
+    if (!notes[today]) {
+      setNotes(prev => ({
+        ...prev,
+        [today]: []
+      }));
+    }
+    setSelectedDate(today);
+  }, []);
 
   // Toggle dark/light mode
   useEffect(() => {
@@ -225,7 +213,7 @@ const NotePage = () => {
     if (element) {
       html2canvas(element, {
         backgroundColor: darkMode ? '#1a202c' : '#f7fafc',
-        scale: 2 // Higher quality
+        scale: 2
       }).then(canvas => {
         const link = document.createElement('a');
         link.download = `legal-note-${new Date().toISOString().slice(0,10)}-${noteId}.png`;
@@ -233,6 +221,33 @@ const NotePage = () => {
         link.click();
       });
     }
+  };
+
+  const createNewNote = () => {
+    const newNote = {
+      id: Date.now(),
+      title: newNoteTitle || 'Untitled Note',
+      content: newNoteContent || '<p>Start writing your note here...</p>',
+      time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+      editable: true,
+      editedAt: new Date().toLocaleString(),
+      fontColor: currentFontColor,
+      highlight: currentHighlight,
+      font: currentFont,
+      icon: legalIcons[Math.floor(Math.random() * legalIcons.length)],
+      shape: currentShape,
+      bgImage: imageUpload
+    };
+
+    setNotes(prev => ({
+      ...prev,
+      [selectedDate]: [...(prev[selectedDate] || []), newNote]
+    }));
+
+    setEditingNoteId(newNote.id);
+    setNewNoteTitle('');
+    setNewNoteContent('');
+    setShowNewNoteForm(false);
   };
 
   const modules = {
@@ -285,6 +300,13 @@ const NotePage = () => {
           {darkMode ? <FaSun /> : <FaMoon />}
         </button>
         <button
+          onClick={() => setViewMode(viewMode === 'edit' ? 'view' : 'edit')}
+          className={`p-2 rounded-full ${darkMode ? 'text-purple-300 hover:bg-purple-900/30' : 'text-purple-800 hover:bg-purple-200'}`}
+          title={viewMode === 'edit' ? 'Switch to View Mode' : 'Switch to Edit Mode'}
+        >
+          {viewMode === 'edit' ? <FaBook /> : <FaEdit />}
+        </button>
+        <button
           onClick={handleExit}
           className="p-2 rounded-full text-red-500 hover:bg-red-900/30"
           title="Exit"
@@ -306,29 +328,109 @@ const NotePage = () => {
 
         {/* Date Picker */}
         <motion.div 
-          className="mb-8"
+          className="mb-8 flex flex-col sm:flex-row sm:items-center gap-4"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <label className="block text-purple-600 dark:text-purple-400 mb-2">Select Date</label>
-          <input
-            type="date"
-            className={`bg-transparent border ${darkMode ? 'border-purple-700' : 'border-purple-300'} p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500`}
-            value={selectedDate}
-            onChange={handleDateChange}
-          />
+          <div className="w-full sm:w-auto">
+            <label className="block text-purple-600 dark:text-purple-400 mb-2">Select Date</label>
+            <input
+              type="date"
+              className={`w-full bg-transparent border ${darkMode ? 'border-purple-700 text-white' : 'border-purple-300 text-gray-900'} p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500`}
+              value={selectedDate}
+              onChange={handleDateChange}
+            />
+          </div>
+          
+          {viewMode === 'edit' && (
+            <button
+              onClick={() => setShowNewNoteForm(true)}
+              className="mt-2 sm:mt-6 flex items-center justify-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors w-full sm:w-auto"
+            >
+              <FaPlus /> Add New Note
+            </button>
+          )}
         </motion.div>
 
+        {/* New Note Form */}
+        {showNewNoteForm && (
+          <motion.div 
+            className="mb-8 p-4 sm:p-6 rounded-lg shadow-lg"
+            style={{ 
+              backgroundColor: darkMode ? 'rgba(26, 32, 44, 0.9)' : 'rgba(247, 250, 252, 0.9)',
+              border: `1px solid ${darkMode ? '#4c51bf' : '#9f7aea'}`
+            }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+          >
+            <h3 className="text-xl font-bold mb-4 text-purple-600 dark:text-purple-400">Create New Note</h3>
+            <div className="mb-4">
+              <label className="block mb-2 text-gray-700 dark:text-gray-300">Title</label>
+              <input
+                type="text"
+                className={`w-full bg-transparent border ${darkMode ? 'border-purple-700 text-white bg-gray-800' : 'border-purple-300 text-gray-900 bg-white'} p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500`}
+                value={newNoteTitle}
+                onChange={(e) => setNewNoteTitle(e.target.value)}
+                placeholder="Note title"
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block mb-2 text-gray-700 dark:text-gray-300">Content</label>
+              <div className={`${darkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'} rounded-lg`}>
+                <ReactQuill
+                  theme="snow"
+                  value={newNoteContent}
+                  onChange={setNewNoteContent}
+                  modules={modules}
+                  className="h-64"
+                  style={{ 
+                    color: darkMode ? 'white' : 'black',
+                    backgroundColor: darkMode ? '#1a202c' : 'white'
+                  }}
+                />
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row justify-end gap-2">
+              <button
+                onClick={() => setShowNewNoteForm(false)}
+                className={`px-4 py-2 rounded-lg border ${darkMode ? 'border-purple-600 text-purple-400 hover:bg-purple-900' : 'border-purple-600 text-purple-600 hover:bg-purple-100'} transition-colors`}
+              >
+                Cancel
+              </button>
+              <button
+                onClick={createNewNote}
+                className="px-4 py-2 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition-colors"
+              >
+                Create Note
+              </button>
+            </div>
+          </motion.div>
+        )}
+
         {notesForDate.length === 0 ? (
-          <motion.p 
-            className="text-gray-500 dark:text-gray-400"
+          <motion.div 
+            className="text-center p-8 rounded-lg"
+            style={{ 
+              backgroundColor: darkMode ? 'rgba(26, 32, 44, 0.5)' : 'rgba(247, 250, 252, 0.5)',
+              border: `1px dashed ${darkMode ? '#4c51bf' : '#9f7aea'}`
+            }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            No notes for {new Date(selectedDate).toDateString()}.
-          </motion.p>
+            <p className="text-gray-500 dark:text-gray-400 mb-4">
+              No notes for {new Date(selectedDate).toDateString()}.
+            </p>
+            {viewMode === 'edit' && (
+              <button
+                onClick={() => setShowNewNoteForm(true)}
+                className="flex items-center justify-center gap-2 mx-auto bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors"
+              >
+                <FaPlus /> Create Your First Note
+              </button>
+            )}
+          </motion.div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {notesForDate.map((note, index) => (
@@ -415,14 +517,16 @@ const NotePage = () => {
                       >
                         <FaDownload />
                       </button>
-                      <button
-                        onClick={() => toggleEdit(selectedDate, note.id, true)}
-                        className="p-1 hover:bg-white/20 rounded-full"
-                        title="Edit"
-                        style={{ color: note.fontColor }}
-                      >
-                        <FaEdit />
-                      </button>
+                      {viewMode === 'edit' && (
+                        <button
+                          onClick={() => toggleEdit(selectedDate, note.id, true)}
+                          className="p-1 hover:bg-white/20 rounded-full"
+                          title="Edit"
+                          style={{ color: note.fontColor }}
+                        >
+                          <FaEdit />
+                        </button>
+                      )}
                     </>
                   )}
                   {note.editable && (
@@ -626,6 +730,18 @@ const NotePage = () => {
           button {
             display: none !important;
           }
+        }
+        .ql-toolbar.ql-snow {
+          border: none !important;
+          background: ${darkMode ? '#2d3748' : '#f7fafc'} !important;
+        }
+        .ql-container.ql-snow {
+          border: none !important;
+          background: transparent !important;
+        }
+        .ql-editor {
+          color: ${darkMode ? 'white' : 'black'} !important;
+          font-family: inherit !important;
         }
       `}</style>
     </div>
