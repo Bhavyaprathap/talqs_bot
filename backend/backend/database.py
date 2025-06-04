@@ -3,6 +3,9 @@
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
 
 # Load environment variables
 load_dotenv()
