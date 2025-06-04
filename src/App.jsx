@@ -4,13 +4,19 @@ import Signup from "./pages/signup.jsx";
 import Navbar from "./pages/Navbar.jsx";
 import React, { useState, useEffect } from "react";
 import WelcomePage from './assets/WelcomePage';
-
+import { ToastContainer } from 'react-toastify'
+// import LegalBotWebsite from "./pages/Legalbotwebsite.jsx";
+// import TalqsLegalBot from "./pages/VisualLegalAssistan.jsx";
+import LegalQuiz from "./pages/VisualLegalAssistan.jsx";
+// import NotePage from "./pages/notepage.jsx";
+import LegalTeamPage from "./pages/Team.jsx";
+// import WelcomePage1 from "./assets/welcomwpage1.jsx";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NotePage from "./pages/NotePage.jsx";
+// import NotePage from "./pages/NotePage.jsx";
 // import HeroSection from "./assets/herosection.jsx";
 import ExploreModelsFlow from "./assets/qasumm.jsx";
 import ExploreModelFlow from "./assets/contents.jsx";
-import QABotChat from "./pages/qachatbot.jsx";
+// import QAChatBot from "./pages/qachatbot.jsx";
 import Summarization from "./pages/summarization.jsx";
 import NeonFlowPage from "./assets/Neonflow.jsx";
 import Footer from "./pages/footer.jsx";
@@ -19,6 +25,11 @@ import Ndatemplate from "./pages/Ndatemplate.jsx";
 import Features from "./pages/features.jsx";
 import LegalCaseSimulation from "./pages/nextpage.jsx";
 import IPCSections from "./pages/ipcsecs.jsx";
+// import BlogPage from "./pages/BlogPage.jsx";
+import NotePage from "./pages/NotePages.jsx";
+import QAInternetBot from "./pages/qachatbot.jsx";
+
+
 
 
 function App() {
@@ -39,13 +50,15 @@ function App() {
 
                 <Navbar/>
                 <WelcomePage username={username || "Guest"} />
+             
                 {/* <HeroSection username={localStorage.getItem("username") || "Guest"} /> */}
-
+                {/* <WelcomePage1 username={username || "Guest"}/> */}
                 <ExploreModelsFlow/>
                 <NeonFlowPage/>
                 <ExploreModelFlow/>
                 <Features/>
-                <LegalCaseSimulation/>
+                <LegalCaseSimulation/>                
+                <LegalQuiz/>
                 <Footer/>
                
               </>
@@ -56,12 +69,20 @@ function App() {
           {/* <Route path="/" element={<Login />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/talqs" element={<TALQSReveal />} /> */}
-          <Route path="/qachatbot" element={<QABotChat/>}/>
-          <Route path="/summarization" element={<Summarization/>}/>
+          {/* <Route path="/qachatbot" element={<QAChatBot/>}/> */}
+          <Route path="/api/summarize" element={<Summarization/>}/>
           <Route path="/dictionary" element={<LegalDictionary/>}/>
           <Route path="/NDAtemplate" element={<Ndatemplate/>}/>
           <Route path="/IPCSections" element={<IPCSections/>}/>
-          <Route path="/NotePage" element={<NotePage/>}/>
+          <Route path="/notepage" element={<NotePage/>}/>
+          <Route path="/api/search" element={<QAInternetBot/>}/>
+        
+          <Route path="/Team" element={<LegalTeamPage />} />
+
+
+         
+         
+          
           
           
         </Routes>
