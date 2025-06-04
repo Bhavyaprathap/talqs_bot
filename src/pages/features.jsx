@@ -123,9 +123,10 @@ export default function LegalResources() {
         transition={{ duration: 0.8 }}
         className="text-center mb-16 relative z-10"
       >
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500 mb-4">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500 mb-6 leading-tight">
           Legal Resources Hub
         </h1>
+       
         <p className="text-lg text-gray-300 max-w-3xl mx-auto">
           Your comprehensive gateway to legal knowledge, tools, and guidance
         </p>
@@ -187,48 +188,9 @@ export default function LegalResources() {
         transition={{ duration: 0.8, delay: 0.4 }}
         className="relative z-10"
       >
-        <div className="flex items-center justify-center mb-12">
-          <div className="flex-1 border-t border-gray-700"></div>
-          <h2 className="px-4 text-2xl sm:text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-purple-500">
-            <BookOpen className="inline mr-3 w-6 h-6" />
-            Step-by-Step Guides
-            <FileText className="inline ml-3 w-6 h-6" />
-          </h2>
-          <div className="flex-1 border-t border-gray-700"></div>
-        </div>
+        
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {guides.map((guide, idx) => (
-            <motion.div
-              key={idx}
-              className={`rounded-xl p-6 ${guide.color} border border-gray-700 hover:border-white/30 transition-all`}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: idx * 0.1 + 0.4 }}
-              whileHover={{ y: -5 }}
-            >
-              <Link 
-                to={guide.path} 
-                className="flex flex-col h-full"
-              >
-                <div className="flex items-start justify-between mb-4">
-                  <span className="text-4xl">{guide.icon}</span>
-                  <ExternalLink className="w-5 h-5 text-gray-400" />
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2">{guide.title}</h3>
-                <div className="mt-auto pt-4">
-                  <div className="w-full h-px bg-gradient-to-r from-transparent via-white/30 to-transparent mb-3"></div>
-                  <span className="text-sm text-gray-300 hover:text-white transition-colors flex items-center">
-                    Read guide
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
-                </div>
-              </Link>
-            </motion.div>
-          ))}
-        </div>
+       
       </motion.section>
 
       {/* Call to Action */}
@@ -242,7 +204,7 @@ export default function LegalResources() {
           <div className="bg-gray-900/80 px-6 py-3 rounded-full">
             <h3 className="text-xl font-semibold text-white mb-2">Need personalized legal help?</h3>
             <Link 
-              to="/contact" 
+              to="/Team"
               className="inline-flex items-center px-6 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full text-white font-medium hover:shadow-lg hover:shadow-cyan-500/30 transition-all"
             >
               Contact Our Legal Team
