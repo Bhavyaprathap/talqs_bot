@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import WelcomePage from './assets/WelcomePage';
 // import { ToastContainer } from 'react-toastify'
 // import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+// import 'react-toastify/dist/ReactToastify.css';
 
 // import LegalBotWebsite from "./pages/Legalbotwebsite.jsx";
 // import TalqsLegalBot from "./pages/VisualLegalAssistan.jsx";
