@@ -12,7 +12,7 @@ import WelcomePage from './assets/WelcomePage';
 // import TalqsLegalBot from "./pages/VisualLegalAssistan.jsx";
 // import LegalQuiz from "./pages/VisualLegalAssistan.jsx";
 // import NotePage from "./pages/notepage.jsx";
-import LegalTeamPage from "./pages/Team.jsx";
+// import LegalTeamPage from "./pages/Team.jsx";
 // import WelcomePage1 from "./assets/welcomwpage1.jsx";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import NotePage from "./pages/NotePage.jsx";
