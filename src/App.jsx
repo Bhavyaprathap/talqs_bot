@@ -61,7 +61,7 @@ function App() {
                 <ExploreModelFlow/>
                 <Features/>
                 <LegalCaseSimulation/>                
-                <LegalQuiz/>
+{/*                 <LegalQuiz/> */}
                 <Footer/>
                
               </>
@@ -80,7 +80,7 @@ function App() {
           <Route path="/notepage" element={<NotePage/>}/>
           <Route path="/api/search" element={<QAInternetBot/>}/>
         
-          <Route path="/Team" element={<LegalTeamPage />} />
+{/*           <Route path="/Team" element={<LegalTeamPage />} /> */}
 
 
          
