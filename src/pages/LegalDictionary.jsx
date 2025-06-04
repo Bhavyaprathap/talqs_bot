@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import legalTerms from "../assets/legalTerms.json";
+import legalTerms from "../assets/LegalTerms.json";
+import contract_law_dictionary from "../assets/contract_law_dictionary.json"
 import { FaSearch, FaTimes, FaBook, FaBalanceScale, FaGavel, FaScroll, FaLandmark } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -118,6 +119,7 @@ const LegalDictionary = () => {
             <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-400 mb-2">
               Legal Lexicon
             </h1>
+            
             <p className="text-purple-200">Your comprehensive guide to legal terminology</p>
           </motion.div>
           
