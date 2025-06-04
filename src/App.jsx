@@ -10,7 +10,7 @@ import WelcomePage from './assets/WelcomePage';
 
 // import LegalBotWebsite from "./pages/Legalbotwebsite.jsx";
 // import TalqsLegalBot from "./pages/VisualLegalAssistan.jsx";
-import LegalQuiz from "./pages/VisualLegalAssistan.jsx";
+// import LegalQuiz from "./pages/VisualLegalAssistan.jsx";
 // import NotePage from "./pages/notepage.jsx";
 import LegalTeamPage from "./pages/Team.jsx";
 // import WelcomePage1 from "./assets/welcomwpage1.jsx";
